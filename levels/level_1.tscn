@@ -21,6 +21,8 @@ texture = ExtResource("1_k55tu")
 
 [node name="player" parent="." instance=ExtResource("2_r7gce")]
 position = Vector2(282, 601)
+rotate_speed = 1.0
+thrust_speed = 600
 
 [node name="pickup" parent="." instance=ExtResource("3_nivon")]
 position = Vector2(73, 358)

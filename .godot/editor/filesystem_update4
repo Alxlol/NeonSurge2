@@ -1,3 +1,2 @@
 res://levels/level_1.tscn
-res://actors/pickup.gd
-res://levels/level_1.gd
+res://characters/player/player.gd
