@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://dyjasjxoi31kg"]
+
+[ext_resource type="Texture2D" uid="uid://cyu461wyilqj7" path="res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png" id="1_02n0t"]
+[ext_resource type="Script" path="res://Actors/Characters/Player/Player.gd" id="1_hw6p4"]
+[ext_resource type="Script" path="res://Components/RotateComponent.gd" id="3_ne7xd"]
+[ext_resource type="Script" path="res://Components/ThrustComponent.gd" id="4_8e0w5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n71ma"]
+size = Vector2(48, 42)
+
+[node name="Player" type="RigidBody2D"]
+linear_damp = 3.0
+script = ExtResource("1_hw6p4")
+
+[node name="Ship" type="Sprite2D" parent="."]
+scale = Vector2(1.6, 1.6)
+texture = ExtResource("1_02n0t")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_n71ma")
+
+[node name="RotateComponent" type="Node" parent="." node_paths=PackedStringArray("sprite")]
+script = ExtResource("3_ne7xd")
+sprite = NodePath("../Ship")
+
+[node name="ThrustComponent" type="Node" parent="." node_paths=PackedStringArray("sprite", "physics_body")]
+script = ExtResource("4_8e0w5")
+sprite = NodePath("../Ship")
+physics_body = NodePath("..")

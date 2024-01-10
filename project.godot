@@ -11,13 +11,13 @@ config_version=5
 [application]
 
 config/name="NeonSurge2"
-run/main_scene="res://levels/level_1.tscn"
+run/main_scene="res://Levels/level_1.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 
 [autoload]
 
-GameState="*res://global/game_state.gd"
-Utils="*res://global/utils.gd"
+GameState="*res://Globals/game_state.gd"
+Utils="*res://Globals/utils.gd"
 
 [display]
 
