@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704925465
+::res://::1704926961
 ::res://Actors/::1704925452
 Pickup.gd::GDScript::-1::1704866942::0::1::::<>Area2D<>::
 Pickup.tscn::PackedScene::4430688503439146311::1704925452::0::1::::<><>::res://Actors/Pickup.gd<>uid://bbphl2pdoe87c::::res://Art/Pickups/Shield Generators/Pickup Icon - Shield Generator - All around shield.png
 ::res://Actors/Characters/::1704925410
-::res://Actors/Characters/Player/::1704925465
+::res://Actors/Characters/Player/::1704926936
 Player.gd::GDScript::-1::1704925113::0::1::::<>RigidBody2D<>::
-Player.tscn::PackedScene::8862406351357476898::1704925465::0::1::::<><>::uid://cyu461wyilqj7::::res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png<>res://Actors/Characters/Player/Player.gd<>res://Components/RotateComponent.gd<>res://Components/ThrustComponent.gd
+Player.tscn::PackedScene::8862406351357476898::1704926936::0::1::::<><>::uid://cyu461wyilqj7::::res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png<>res://Actors/Characters/Player/Player.gd<>uid://clmafet1gigm::::res://Art/Spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Base Engine.png<>res://Components/RotateComponent.gd<>uid://ciwo11eak8klu::::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Idle.png<>res://Components/ThrustComponent.gd<>uid://dtjxt743uyocf::::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Spritesheet.png
 ::res://Art/::1704925465
 ::res://Art/Backgrounds/::1704925460
 Blue_Nebula_01-1024x1024.png::CompressedTexture2D::705004693690016259::1577861381::1704925460::1::::<><>::
@@ -26,18 +26,16 @@ Pickup Icon - Weapons - Auto Cannons.png::CompressedTexture2D::51351994927574478
 Pickup Icon - Weapons - Big Space Gun 2000.png::CompressedTexture2D::1232005026801477564::1645779562::1704925452::1::::<><>::
 Pickup Icon - Weapons - Rocket.png::CompressedTexture2D::3779410170612245637::1645779562::1704925452::1::::<><>::
 Pickup Icon - Weapons - Zapper.png::CompressedTexture2D::8924439681358110136::1645779562::1704925452::1::::<><>::
-::res://Art/Spaceship/::1660814292
-Readme.txt::TextFile::-1::1660814304::0::1::::<><>::
+::res://Art/Spaceship/::1704925471
 ::res://Art/Spaceship/Main Ship/::1660808628
 ::res://Art/Spaceship/Main Ship/Main Ship - Bases/::1704853446
-::res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/::1704925428
+::res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/::1704925466
 Main Ship - Base - Damaged.png::CompressedTexture2D::4769038179108406589::1645779562::1704925466::1::::<><>::
 Main Ship - Base - Full health.png::CompressedTexture2D::6500478722875847018::1645779562::1704925466::1::::<><>::
 Main Ship - Base - Slight damage.png::CompressedTexture2D::6113575941366448233::1645779562::1704925466::1::::<><>::
 Main Ship - Base - Very damaged.png::CompressedTexture2D::2260102485013090489::1645779562::1704925466::1::::<><>::
-::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/::1660808628
-::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/Aseprite/::1660813562
-::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/::1704925428
+::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/::1704925852
+::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/::1704925466
 Main Ship - Engines - Base Engine - Idle.png::CompressedTexture2D::7312719642572159140::1645779562::1704925466::1::::<><>::
 Main Ship - Engines - Base Engine - Powering.png::CompressedTexture2D::742077985266789679::1645779562::1704925466::1::::<><>::
 Main Ship - Engines - Base Engine - Spritesheet.png::CompressedTexture2D::2033905518278177473::1645779562::1704925466::1::::<><>::
@@ -50,40 +48,39 @@ Main Ship - Engines - Burst Engine - Spritesheet.png::CompressedTexture2D::72300
 Main Ship - Engines - Supercharged Engine - Idle.png::CompressedTexture2D::5380666267421027802::1645779562::1704925466::1::::<><>::
 Main Ship - Engines - Supercharged Engine - Powering.png::CompressedTexture2D::7821760735351507067::1645779562::1704925466::1::::<><>::
 Main Ship - Engines - Supercharged Engine - Spritesheet.png::CompressedTexture2D::8512861627752688961::1645779562::1704925466::1::::<><>::
-::res://Art/Spaceship/Main Ship/Main Ship - Engines/::1660808628
-::res://Art/Spaceship/Main Ship/Main Ship - Engines/Aseprite/::1660808628
-::res://Art/Spaceship/Main Ship/Main Ship - Engines/PNGs/::1704925427
+::res://Art/Spaceship/Main Ship/Main Ship - Engines/::1704926125
+::res://Art/Spaceship/Main Ship/Main Ship - Engines/PNGs/::1704925466
 Main Ship - Engines - Base Engine.png::CompressedTexture2D::163814716178151336::1645779562::1704925466::1::::<><>::
 Main Ship - Engines - Big Pulse Engine.png::CompressedTexture2D::8849586920949324962::1645779562::1704925466::1::::<><>::
 Main Ship - Engines - Burst Engine.png::CompressedTexture2D::5090369074332812402::1645779562::1704925466::1::::<><>::
 Main Ship - Engines - Supercharged Engine.png::CompressedTexture2D::1556591446800179589::1645779562::1704925466::1::::<><>::
 ::res://Art/Spaceship/Main Ship/Main Ship - Shields/::1660808628
 ::res://Art/Spaceship/Main Ship/Main Ship - Shields/Aseprite/::1660808628
-::res://Art/Spaceship/Main Ship/Main Ship - Shields/PNGs/::1704925428
+::res://Art/Spaceship/Main Ship/Main Ship - Shields/PNGs/::1704925466
 Main Ship - Shields - Front and Side Shield.png::CompressedTexture2D::6166838564801651834::1645779562::1704925466::1::::<><>::
 Main Ship - Shields - Front Shield.png::CompressedTexture2D::7208220814326355770::1645779562::1704925466::1::::<><>::
 Main Ship - Shields - Invincibility Shield.png::CompressedTexture2D::5014294156782157478::1645779562::1704925466::1::::<><>::
 Main Ship - Shields - Round Shield.png::CompressedTexture2D::5145435069323808354::1645779562::1704925466::1::::<><>::
 ::res://Art/Spaceship/Main Ship/Main Ship - Weapons/::1660808628
 ::res://Art/Spaceship/Main Ship/Main Ship - Weapons/Aseprite/::1660811182
-::res://Art/Spaceship/Main Ship/Main Ship - Weapons/PNGs/::1704925428
+::res://Art/Spaceship/Main Ship/Main Ship - Weapons/PNGs/::1704925466
 Main Ship - Weapons - Auto Cannon.png::CompressedTexture2D::4016891574170261537::1645779562::1704925466::1::::<><>::
 Main Ship - Weapons - Big Space Gun.png::CompressedTexture2D::2291126636778444847::1645779562::1704925466::1::::<><>::
 Main Ship - Weapons - Rockets.png::CompressedTexture2D::262370391643026390::1645779562::1704925466::1::::<><>::
 Main Ship - Weapons - Zapper.png::CompressedTexture2D::7723385626209945999::1645779562::1704925466::1::::<><>::
 ::res://Art/Spaceship/Main ship weapons/::1660811366
 ::res://Art/Spaceship/Main ship weapons/Aseprite/::1660811366
-::res://Art/Spaceship/Main ship weapons/PNGs/::1704925428
+::res://Art/Spaceship/Main ship weapons/PNGs/::1704925466
 Main ship weapon - Projectile - Auto cannon bullet.png::CompressedTexture2D::7367090475092440473::1645779562::1704925466::1::::<><>::
 Main ship weapon - Projectile - Big Space Gun.png::CompressedTexture2D::6899764042121491877::1645779562::1704925466::1::::<><>::
 Main ship weapon - Projectile - Rocket.png::CompressedTexture2D::8359465700173244740::1645779562::1704925466::1::::<><>::
 Main ship weapon - Projectile - Zapper.png::CompressedTexture2D::6503897695248354084::1645779564::1704925466::1::::<><>::
-::res://Components/::1704925323
+::res://Components/::1704926897
 RotateComponent.gd::GDScript::-1::1704925307::0::1::::RotateComponent<>Node<>::
-ThrustComponent.gd::GDScript::-1::1704925323::0::1::::ThrustComponent<>Node<>::
-::res://Globals/::1704900793
-game_state.gd::GDScript::-1::1704900793::0::1::::<>Node<>::
+ThrustComponent.gd::GDScript::-1::1704926897::0::1::::ThrustComponent<>Node<>::
+::res://Globals/::1704926961
+GameState.gd::GDScript::-1::1704900793::0::1::::<>Node<>::
 utils.gd::GDScript::-1::1704900793::0::1::::<>Node<>::
-::res://Levels/::1704925459
-level_1.gd::GDScript::-1::1704900793::0::1::::<>Node<>::
-level_1.tscn::PackedScene::6392417098081116270::1704925459::0::1::::<><>::uid://kbrla5nieg6n::::res://Art/Backgrounds/Blue_Nebula_01-1024x1024.png<>res://Levels/level_1.gd<>uid://dyjasjxoi31kg::::res://Actors/Characters/Player/Player.tscn<>uid://b4ei166lw6h6v::::res://Actors/Pickup.tscn
+::res://Levels/::1704926936
+level_1.gd::GDScript::-1::1704925694::0::1::::<>Node<>::
+level_1.tscn::PackedScene::6392417098081116270::1704926936::0::1::::<><>::uid://kbrla5nieg6n::::res://Art/Backgrounds/Blue_Nebula_01-1024x1024.png<>res://Levels/level_1.gd<>uid://dyjasjxoi31kg::::res://Actors/Characters/Player/Player.tscn

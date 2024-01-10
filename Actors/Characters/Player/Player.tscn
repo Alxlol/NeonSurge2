@@ -1,9 +1,81 @@
-[gd_scene load_steps=6 format=3 uid="uid://dyjasjxoi31kg"]
+[gd_scene load_steps=18 format=3 uid="uid://dyjasjxoi31kg"]
 
 [ext_resource type="Texture2D" uid="uid://cyu461wyilqj7" path="res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png" id="1_02n0t"]
 [ext_resource type="Script" path="res://Actors/Characters/Player/Player.gd" id="1_hw6p4"]
+[ext_resource type="Texture2D" uid="uid://clmafet1gigm" path="res://Art/Spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Base Engine.png" id="3_cirla"]
 [ext_resource type="Script" path="res://Components/RotateComponent.gd" id="3_ne7xd"]
+[ext_resource type="Texture2D" uid="uid://ciwo11eak8klu" path="res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Idle.png" id="4_00wn8"]
 [ext_resource type="Script" path="res://Components/ThrustComponent.gd" id="4_8e0w5"]
+[ext_resource type="Texture2D" uid="uid://dtjxt743uyocf" path="res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Spritesheet.png" id="5_uqk8a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ecst6"]
+atlas = ExtResource("4_00wn8")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vk0dy"]
+atlas = ExtResource("4_00wn8")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rjqtr"]
+atlas = ExtResource("4_00wn8")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d25pf"]
+atlas = ExtResource("4_00wn8")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_do84i"]
+atlas = ExtResource("5_uqk8a")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ggxd5"]
+atlas = ExtResource("5_uqk8a")
+region = Rect2(0, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2jw1d"]
+atlas = ExtResource("5_uqk8a")
+region = Rect2(48, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_78gvo"]
+atlas = ExtResource("5_uqk8a")
+region = Rect2(96, 48, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tvi2c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ecst6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vk0dy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rjqtr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d25pf")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_do84i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ggxd5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2jw1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_78gvo")
+}],
+"loop": false,
+"name": &"Thrust",
+"speed": 8.0
+}]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n71ma"]
 size = Vector2(48, 42)
@@ -13,17 +85,33 @@ linear_damp = 3.0
 script = ExtResource("1_hw6p4")
 
 [node name="Ship" type="Sprite2D" parent="."]
+z_index = 4
 scale = Vector2(1.6, 1.6)
 texture = ExtResource("1_02n0t")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="Ship"]
+z_index = 3
+z_as_relative = false
+position = Vector2(0, 3.75)
+texture = ExtResource("3_cirla")
+
+[node name="ThrustAnimation" type="AnimatedSprite2D" parent="Ship/Sprite2D"]
+position = Vector2(0, -1.25)
+sprite_frames = SubResource("SpriteFrames_tvi2c")
+animation = &"Thrust"
+autoplay = "Idle"
+
+[node name="Collision" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_n71ma")
 
 [node name="RotateComponent" type="Node" parent="." node_paths=PackedStringArray("sprite")]
 script = ExtResource("3_ne7xd")
 sprite = NodePath("../Ship")
 
-[node name="ThrustComponent" type="Node" parent="." node_paths=PackedStringArray("sprite", "physics_body")]
+[node name="ThrustComponent" type="Node" parent="." node_paths=PackedStringArray("sprite", "physics_body", "thrust_animation")]
 script = ExtResource("4_8e0w5")
 sprite = NodePath("../Ship")
 physics_body = NodePath("..")
+thrust_animation = NodePath("../Ship/Sprite2D/ThrustAnimation")
+
+[connection signal="animation_finished" from="Ship/Sprite2D/ThrustAnimation" to="ThrustComponent" method="_on_thrust_animation_animation_finished"]

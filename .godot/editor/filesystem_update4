@@ -8,3 +8,5 @@ res://Characters/player/player.tscn
 res://Characters/Player/player.tscn
 res://Characters/Player/Player.tscn
 res://Actors/Characters/Player/Player.tscn
+res://Levels/level_1.gd
+res://Components/ThrustComponent.gd

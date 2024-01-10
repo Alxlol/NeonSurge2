@@ -1,15 +1,14 @@
-[gd_scene load_steps=5 format=3 uid="uid://cxcsf8cg45ri1"]
+[gd_scene load_steps=4 format=3 uid="uid://cxcsf8cg45ri1"]
 
 [ext_resource type="Texture2D" uid="uid://kbrla5nieg6n" path="res://Art/Backgrounds/Blue_Nebula_01-1024x1024.png" id="1_k55tu"]
 [ext_resource type="Script" path="res://Levels/level_1.gd" id="1_ukxw4"]
 [ext_resource type="PackedScene" uid="uid://dyjasjxoi31kg" path="res://Actors/Characters/Player/Player.tscn" id="2_r7gce"]
-[ext_resource type="PackedScene" uid="uid://b4ei166lw6h6v" path="res://Actors/Pickup.tscn" id="3_nivon"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_ukxw4")
 metadata/_edit_horizontal_guides_ = [37.0]
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="BG" type="TextureRect" parent="."]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -19,11 +18,5 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_k55tu")
 
-[node name="player" parent="." instance=ExtResource("2_r7gce")]
-position = Vector2(282, 601)
-
-[node name="pickup" parent="." instance=ExtResource("3_nivon")]
-position = Vector2(73, 358)
-
-[node name="pickup2" parent="." instance=ExtResource("3_nivon")]
-position = Vector2(424, 311)
+[node name="Player" parent="." instance=ExtResource("2_r7gce")]
+position = Vector2(290, 640)

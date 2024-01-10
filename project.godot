@@ -16,8 +16,8 @@ config/features=PackedStringArray("4.2", "Mobile")
 
 [autoload]
 
-GameState="*res://Globals/game_state.gd"
-Utils="*res://Globals/utils.gd"
+GameState="*res://Globals/GameState.gd"
+PlayerState="*res://Globals/PlayerState.gd"
 
 [display]
 
