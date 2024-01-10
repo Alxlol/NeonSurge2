@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxcsf8cg45ri1"]
+
+[ext_resource type="Texture2D" uid="uid://kbrla5nieg6n" path="res://art/backgrounds/Blue_Nebula_01-1024x1024.png" id="1_k55tu"]
+[ext_resource type="PackedScene" uid="uid://dyjasjxoi31kg" path="res://characters/player/player.tscn" id="2_r7gce"]
+[ext_resource type="PackedScene" uid="uid://b4ei166lw6h6v" path="res://actors/pickup.tscn" id="3_nivon"]
+
+[node name="Main" type="Node"]
+metadata/_edit_horizontal_guides_ = [37.0]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -224.0
+offset_right = 224.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_k55tu")
+
+[node name="player" parent="." instance=ExtResource("2_r7gce")]
+position = Vector2(282, 601)
+
+[node name="pickup" parent="." instance=ExtResource("3_nivon")]
+position = Vector2(73, 358)
+
+[node name="pickup2" parent="." instance=ExtResource("3_nivon")]
+position = Vector2(424, 311)

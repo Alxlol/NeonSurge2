@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dyjasjxoi31kg"]
+
+[ext_resource type="Texture2D" uid="uid://cyu461wyilqj7" path="res://art/spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png" id="1_02n0t"]
+[ext_resource type="Script" path="res://characters/player/player.gd" id="1_hw6p4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n71ma"]
+size = Vector2(48, 42)
+
+[node name="player" type="RigidBody2D"]
+linear_damp = 3.0
+script = ExtResource("1_hw6p4")
+
+[node name="spaceship" type="Sprite2D" parent="."]
+scale = Vector2(1.6, 1.6)
+texture = ExtResource("1_02n0t")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_n71ma")
