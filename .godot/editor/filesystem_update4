@@ -1,2 +1,4 @@
 res://levels/level_1.tscn
 res://characters/player/player.gd
+res://global/game_state.gd
+res://levels/level_1.gd

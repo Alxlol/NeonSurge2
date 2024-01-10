@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 @export var rotate_speed = 0.75
-@export var thrust_speed = 550
+@export var thrust_speed = 700
 
 var player_sprite = null
 

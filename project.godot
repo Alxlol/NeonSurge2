@@ -14,6 +14,11 @@ config/name="NeonSurge2"
 run/main_scene="res://levels/level_1.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 
+[autoload]
+
+GameState="*res://global/game_state.gd"
+Utils="*res://global/utils.gd"
+
 [display]
 
 window/size/viewport_width=576
