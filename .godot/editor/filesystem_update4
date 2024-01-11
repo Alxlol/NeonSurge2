@@ -1,8 +1,9 @@
 res://Levels/World.tscn
-res://Actors/DeathZone.gd
 res://Actors/Characters/Player/Player.tscn
-res://Actors/DeathZone.tscn
-res://Actors/Characters/Player/Player.gd
-res://Components/StatComponent.gd
-res://Globals/GameState.gd
 res://Globals/PlayerState.gd
+res://Actors/Characters/Player/Player.gd
+res://Globals/GameState.gd
+res://UI/Health.tscn
+res://UI/Health.gd
+res://UI/UserInterface.tscn
+res://UI/UserInterface.gd

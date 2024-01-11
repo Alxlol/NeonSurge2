@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://dyjasjxoi31kg"]
+[gd_scene load_steps=18 format=3 uid="uid://dyjasjxoi31kg"]
 
 [ext_resource type="Texture2D" uid="uid://cyu461wyilqj7" path="res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png" id="1_02n0t"]
 [ext_resource type="Script" path="res://Actors/Characters/Player/Player.gd" id="1_hw6p4"]
@@ -7,7 +7,6 @@
 [ext_resource type="Texture2D" uid="uid://ciwo11eak8klu" path="res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Idle.png" id="4_00wn8"]
 [ext_resource type="Script" path="res://Components/ThrustComponent.gd" id="4_8e0w5"]
 [ext_resource type="Texture2D" uid="uid://dtjxt743uyocf" path="res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Spritesheet.png" id="5_uqk8a"]
-[ext_resource type="Script" path="res://Components/StatComponent.gd" id="9_d20b5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ecst6"]
 atlas = ExtResource("4_00wn8")
@@ -118,9 +117,6 @@ thrust_animation = NodePath("../Ship/Sprite2D/ThrustAnimation")
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
 position = Vector2(-2.08616e-07, 0.500001)
 scale = Vector2(1.5, 1.45)
-
-[node name="StatComponent" type="Node" parent="."]
-script = ExtResource("9_d20b5")
 
 [connection signal="animation_finished" from="Ship/Sprite2D/ThrustAnimation" to="ThrustComponent" method="_on_thrust_animation_animation_finished"]
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

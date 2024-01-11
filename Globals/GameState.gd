@@ -1,10 +1,8 @@
 extends Node
 
-var player_scene : PackedScene = preload("res://Actors/Characters/Player/Player.tscn")
-var starting_position : Vector2 = Vector2(160, 256)
+var player_class : PackedScene = preload("res://Actors/Characters/Player/Player.tscn")
 
-func respawn_player(): 
-	var player_instance = player_scene.instantiate()
-	player_instance.position = Vector2(starting_position)
+func respawn_player(at_position:Vector2):
+	var player_instance = player_class.instantiate()
+	player_instance.position = Vector2(at_position)
 	add_child(player_instance)
-	print(player_instance)

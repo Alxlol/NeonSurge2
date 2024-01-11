@@ -1,11 +1,10 @@
 extends RigidBody2D
 
-@onready var start_position : Vector2 = transform.get_origin()
-@onready var stat_component : StatComponent = $StatComponent as StatComponent
+@onready var start_position : Vector2 = position
 
 func takeDamage():
-	stat_component.decrement_health(1)
-	GameState.respawn_player()
+	PlayerState.decrement_health(1)
+	GameState.respawn_player(Vector2(160, 256))
 	queue_free()
 	
 
