@@ -57,7 +57,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Idle",
-"speed": 5.0
+"speed": 4.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -74,7 +74,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"Thrust",
-"speed": 8.0
+"speed": 10.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n71ma"]
@@ -98,7 +98,7 @@ texture = ExtResource("3_cirla")
 [node name="ThrustAnimation" type="AnimatedSprite2D" parent="Ship/Sprite2D"]
 position = Vector2(0, -1.25)
 sprite_frames = SubResource("SpriteFrames_tvi2c")
-animation = &"Thrust"
+animation = &"Idle"
 autoplay = "Idle"
 
 [node name="Collision" type="CollisionShape2D" parent="."]
