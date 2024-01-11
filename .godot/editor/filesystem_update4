@@ -10,3 +10,10 @@ res://Characters/Player/Player.tscn
 res://Actors/Characters/Player/Player.tscn
 res://Levels/level_1.gd
 res://Components/ThrustComponent.gd
+res://Levels/World.tscn
+res://Actors/Characters/Player/Player.gd
+res://Components/ScaleComponent.gd
+res://Components/ShieldComponent.gd
+res://Actors/DeathZone.tscn
+res://Actors/DeathZone.gd
+res://Globals/PlayerState.gd

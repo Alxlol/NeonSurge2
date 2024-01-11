@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="NeonSurge2"
-run/main_scene="res://Levels/level_1.tscn"
+run/main_scene="res://Levels/World.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 
 [autoload]
@@ -21,8 +21,11 @@ PlayerState="*res://Globals/PlayerState.gd"
 
 [display]
 
-window/size/viewport_width=576
-window/size/viewport_height=1024
+window/size/viewport_width=320
+window/size/viewport_height=480
+window/size/window_width_override=640
+window/size/window_height_override=960
+window/stretch/mode="canvas_items"
 
 [input]
 
