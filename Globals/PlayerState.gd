@@ -1,8 +1,10 @@
 extends Node
 
-var max_health = 3
-var current_health = 3
+var max_health: int = 3
+var current_health: int = 3
 
-func decrement_health(amount:int):
-	current_health = current_health - amount
-	print('new health: ', current_health)
+signal set_new_health(new_health: int)
+
+func decrement_health(amount):
+	current_health -= amount
+	set_new_health.emit(current_health)

@@ -1,8 +1,9 @@
 extends Control
 
-@onready var health_label = $Health
-var current_health = PlayerState.current_health
+@onready var health = $Health
 
 func _ready():
-	health_label.text = str(current_health)
-	
+	PlayerState.set_new_health.connect(update_health)
+
+func update_health(new_health):
+	health.text = str(new_health)

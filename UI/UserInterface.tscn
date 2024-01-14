@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://b4ii1hqrihouk"]
+[gd_scene load_steps=2 format=3 uid="uid://kghdlox5n662"]
 
 [ext_resource type="Script" path="res://UI/UserInterface.gd" id="1_yx2ex"]
 
@@ -15,4 +15,4 @@ script = ExtResource("1_yx2ex")
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
-text = "Example"
+text = "3"
