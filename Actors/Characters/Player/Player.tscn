@@ -118,5 +118,10 @@ thrust_animation = NodePath("../Ship/Sprite2D/ThrustAnimation")
 position = Vector2(-2.08616e-07, 0.500001)
 scale = Vector2(1.5, 1.45)
 
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "3"
+
 [connection signal="animation_finished" from="Ship/Sprite2D/ThrustAnimation" to="ThrustComponent" method="_on_thrust_animation_animation_finished"]
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
