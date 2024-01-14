@@ -1,12 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705240986
+::res://::1705249333
 ::res://Actors/::1704939212
 Pickup.gd::GDScript::-1::1704866942::0::1::::<>Area2D<>::
 Pickup.tscn::PackedScene::4430688503439146311::1704925452::0::1::::<><>::res://Actors/Pickup.gd<>uid://bbphl2pdoe87c::::res://Art/Pickups/Shield Generators/Pickup Icon - Shield Generator - All around shield.png
 ::res://Actors/Characters/::1704925410
-::res://Actors/Characters/Player/::1705240959
-Player.gd::GDScript::-1::1705240959::0::1::::<>RigidBody2D<>::
-Player.tscn::PackedScene::8862406351357476898::1705240959::0::1::::<><>::uid://cyu461wyilqj7::::res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png<>res://Actors/Characters/Player/Player.gd<>uid://clmafet1gigm::::res://Art/Spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Base Engine.png<>res://Components/RotateComponent.gd<>uid://ciwo11eak8klu::::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Idle.png<>res://Components/ThrustComponent.gd<>uid://dtjxt743uyocf::::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Spritesheet.png
+::res://Actors/Characters/Player/::1705253947
+Player.gd::GDScript::-1::1705249338::0::1::::<>RigidBody2D<>::
+Player.tscn::PackedScene::8862406351357476898::1705253968::0::1::::<><>::uid://cyu461wyilqj7::::res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png<>res://Actors/Characters/Player/Player.gd<>uid://clmafet1gigm::::res://Art/Spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Base Engine.png<>res://Components/RotateComponent.gd<>uid://ciwo11eak8klu::::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Idle.png<>res://Components/ThrustComponent.gd<>uid://dtjxt743uyocf::::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Spritesheet.png
+::res://addons/::1700402641
+::res://addons/script-tabs/::1700402641
+plugin.cfg::TextFile::-1::1700402641::0::1::::<><>::
+plugin.gd::GDScript::-1::1700402641::0::1::::<>EditorPlugin<>::
 ::res://Art/::1704925465
 ::res://Art/Backgrounds/::1704925460
 Blue_Nebula_01-1024x1024.png::CompressedTexture2D::705004693690016259::1577861381::1704925460::1::::<><>::
@@ -81,11 +85,11 @@ ScaleComponent.gd::GDScript::-1::1704933592::0::1::::ScaleComponent<>Node<>::
 ShieldComponent.gd::GDScript::-1::1704934291::0::1::::ShieldComponent<>Node<>::
 StatComponent.gd::GDScript::-1::1704950657::0::1::::StatComponent<>Node<>::
 ThrustComponent.gd::GDScript::-1::1704933622::0::1::::ThrustComponent<>Node<>::
-::res://Globals/::1705240959
+::res://Globals/::1705250092
 GameState.gd::GDScript::-1::1705240959::0::1::::<>Node<>::
-PlayerState.gd::GDScript::-1::1705240959::0::1::::<>Node<>::
-::res://Levels/::1705240959
-World.tscn::PackedScene::6392417098081116270::1705240959::0::1::::<><>::uid://kbrla5nieg6n::::res://Art/Backgrounds/Blue_Nebula_01-1024x1024.png<>uid://dyjasjxoi31kg::::res://Actors/Characters/Player/Player.tscn<>uid://b4ii1hqrihouk::::res://UI/UserInterface.tscn
-::res://UI/::1705240959
-UserInterface.gd::GDScript::-1::1705240959::0::1::::<>Control<>::
-UserInterface.tscn::PackedScene::4438944730975883970::1705240959::0::1::::<><>::res://UI/UserInterface.gd
+PlayerState.gd::GDScript::-1::1705250092::0::1::::<>Node<>::
+::res://Levels/::1705253947
+World.tscn::PackedScene::6392417098081116270::1705253947::0::1::::<><>::uid://kbrla5nieg6n::::res://Art/Backgrounds/Blue_Nebula_01-1024x1024.png<>uid://dyjasjxoi31kg::::res://Actors/Characters/Player/Player.tscn<>uid://kghdlox5n662::::res://UI/UserInterface.tscn
+::res://UI/::1705253947
+UserInterface.gd::GDScript::-1::1705249978::0::1::::<>Control<>::
+UserInterface.tscn::PackedScene::714705679705528541::1705253947::0::1::::<><>::res://UI/UserInterface.gd

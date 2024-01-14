@@ -1,5 +1,4 @@
 extends Control
-
 @onready var health = $Health
 
 func _ready():

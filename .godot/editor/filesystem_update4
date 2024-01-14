@@ -4,3 +4,5 @@ res://UI/UserInterface.tscn
 res://Globals/PlayerState.gd
 res://Actors/Characters/Player/Player.gd
 res://UI/UserInterface.gd
+res://Actors/Pickup.tscn
+res://Actors/Pickup.gd

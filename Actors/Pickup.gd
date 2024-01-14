@@ -2,7 +2,7 @@ extends Area2D
 
 func _on_body_entered(body):
 
-	if body.name == "player":
+	if body.name == "Player":
 		var tween = get_tree().create_tween()
 		var tween2 = get_tree().create_tween()
 		
