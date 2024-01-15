@@ -1,5 +1,6 @@
-WorldEnvironment
+TileMap
 Sprite2D
+WorldEnvironment
 Label
 TextEdit
 StatComponent
