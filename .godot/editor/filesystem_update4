@@ -1,5 +1,3 @@
-res://Levels/World.tscn
-res://Actors/Pickup.gdshader
-res://Actors/Pickup.tscn
 res://Actors/Characters/Player/Player.tscn
+res://Levels/World.tscn
 res://UI/UserInterface.tscn
