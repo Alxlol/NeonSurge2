@@ -1,5 +1,4 @@
 res://Levels/World.tscn
 res://Actors/Characters/Player/Player.tscn
 res://UI/UserInterface.tscn
-res://Actors/Characters/Player/Player.gd
 res://Actors/Pickups/pickup.tscn

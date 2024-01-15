@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bi6yefti5a5qv"
-path="res://.godot/imported/CelestialObjects.png-e26c0e28b40fdc65e02af912767a9cc0.ctex"
+uid="uid://btv6a7dw3qxdj"
+path="res://.godot/imported/rock_packed.png-1aa797e100ec293f0afce0dab6085e13.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/CelestialObjects/CelestialObjects.png"
-dest_files=["res://.godot/imported/CelestialObjects.png-e26c0e28b40fdc65e02af912767a9cc0.ctex"]
+source_file="res://Art/Tilemap/rock_packed.png"
+dest_files=["res://.godot/imported/rock_packed.png-1aa797e100ec293f0afce0dab6085e13.ctex"]
 
 [params]
 
