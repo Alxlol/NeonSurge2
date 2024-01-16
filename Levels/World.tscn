@@ -1,30 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://cxcsf8cg45ri1"]
+[gd_scene load_steps=5 format=3 uid="uid://cxcsf8cg45ri1"]
 
 [ext_resource type="Texture2D" uid="uid://kbrla5nieg6n" path="res://Art/Backgrounds/Blue_Nebula_01-1024x1024.png" id="1_yec5f"]
 [ext_resource type="PackedScene" uid="uid://dyjasjxoi31kg" path="res://Actors/Characters/Player/Player.tscn" id="2_yugho"]
 [ext_resource type="PackedScene" uid="uid://kghdlox5n662" path="res://UI/UserInterface.tscn" id="3_xjwvt"]
-[ext_resource type="Texture2D" uid="uid://btv6a7dw3qxdj" path="res://Art/Tilemap/rock_packed.png" id="4_b04vn"]
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_khwgc"]
-texture = ExtResource("4_b04vn")
-texture_region_size = Vector2i(18, 18)
-9:3/0 = 0
-9:4/0 = 0
-9:0/0 = 0
-9:1/0 = 0
-0:0/0 = 0
-1:0/0 = 0
-2:0/0 = 0
-3:0/0 = 0
-4:0/0 = 0
-5:0/0 = 0
-6:0/0 = 0
-7:0/0 = 0
-8:0/0 = 0
-
-[sub_resource type="TileSet" id="TileSet_s1b63"]
-tile_size = Vector2i(18, 18)
-sources/0 = SubResource("TileSetAtlasSource_khwgc")
+[ext_resource type="PackedScene" uid="uid://rt6whdr4ciw3" path="res://Actors/Obstacle/Obstacle.tscn" id="4_atd84"]
 
 [node name="Main" type="Node"]
 metadata/_edit_horizontal_guides_ = [37.0]
@@ -46,7 +25,8 @@ position = Vector2(160, 256)
 
 [node name="UserInterface" parent="." instance=ExtResource("3_xjwvt")]
 
-[node name="TileMap" type="TileMap" parent="."]
-tile_set = SubResource("TileSet_s1b63")
-format = 2
-layer_0/tile_data = PackedInt32Array(524290, 0, 0, 524291, 0, 0, 524292, 0, 0, 524293, 0, 0, 524294, 0, 0, 524295, 0, 0, 524296, 0, 0, 524297, 0, 0, 524298, 0, 0, 524299, 0, 0, 524300, 0, 0, 524301, 0, 0, 524302, 0, 0, 589826, 0, 0, 589827, 0, 0, 589828, 0, 0, 589829, 0, 0, 589830, 0, 0, 589831, 0, 0, 589832, 0, 0, 589833, 0, 0, 589834, 0, 0, 589835, 0, 0, 589836, 0, 0, 589837, 0, 0, 589838, 0, 0, 524303, 0, 0, 524304, 0, 0, 524305, 0, 0, 589841, 0, 0, 589840, 0, 0, 589839, 0, 0, 589825, 0, 0, 589824, 0, 0, 524288, 0, 0, 524289, 0, 0)
+[node name="Obstacle" parent="." instance=ExtResource("4_atd84")]
+position = Vector2(7, 132)
+
+[node name="Obstacle2" parent="." instance=ExtResource("4_atd84")]
+position = Vector2(153, 143)
