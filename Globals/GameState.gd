@@ -1,6 +1,6 @@
 extends Node
 
-var player_class : PackedScene = preload("res://Actors/Characters/Player/Player.tscn")
+@onready var player_class : PackedScene = preload("res://Actors/Characters/Player/Player.tscn")
 
 func respawn_player(at_position:Vector2):
 	var player_instance = player_class.instantiate()

@@ -26,7 +26,7 @@ position = Vector2(160, 256)
 [node name="UserInterface" parent="." instance=ExtResource("3_xjwvt")]
 
 [node name="Obstacle" parent="." instance=ExtResource("4_atd84")]
-position = Vector2(7, 132)
+position = Vector2(13, 132)
 
 [node name="Obstacle2" parent="." instance=ExtResource("4_atd84")]
 position = Vector2(153, 143)
