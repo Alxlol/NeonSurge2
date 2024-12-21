@@ -1,8 +1,5 @@
 res://Levels/World.tscn
+res://Globals/GameState.gd
 res://Actors/Characters/Player/Player.tscn
 res://UI/UserInterface.tscn
 res://Actors/Obstacle/Obstacle.tscn
-res://Actors/Obstacle/Obstacle.gd
-res://Globals/GameState.gd
-res://Actors/Characters/Player/Player.gd
-res://Globals/PlayerState.gd
