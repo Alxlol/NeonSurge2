@@ -20,13 +20,13 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_yec5f")
 
-[node name="Player" parent="." instance=ExtResource("2_yugho")]
-position = Vector2(160, 256)
-
 [node name="UserInterface" parent="." instance=ExtResource("3_xjwvt")]
 
 [node name="Obstacle" parent="." instance=ExtResource("4_atd84")]
-position = Vector2(13, 132)
+position = Vector2(36, 149)
 
 [node name="Obstacle2" parent="." instance=ExtResource("4_atd84")]
-position = Vector2(153, 143)
+position = Vector2(265, 147)
+
+[node name="Player" parent="." instance=ExtResource("2_yugho")]
+position = Vector2(165, 277)

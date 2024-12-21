@@ -11,6 +11,8 @@ func decrement_health(amount):
 	set_new_health.emit(current_health)
 
 func respawn_player(at_position:Vector2):
+	print('want to respawn')
 	var player_instance = player_class.instantiate()
 	player_instance.position = Vector2(at_position)
+	player_instance.name = "Player"
 	call_deferred('add_child', player_instance)

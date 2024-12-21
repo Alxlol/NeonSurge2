@@ -123,7 +123,7 @@ tile_set = SubResource("TileSet_r7u35")
 format = 2
 layer_0/tile_data = PackedInt32Array(-2, 196608, 7, -1, 262144, 7, -65536, 196608, 6, -65535, 262144, 6, -65534, 327680, 6, 65534, 196608, 8, 2, 327680, 7, 0, 196608, 7, 1, 262144, 7, 65535, 262144, 8, -65537, 262144, 6, -131072, 327680, 6, -131071, 262144, 1, -131070, 327680, 6, -65538, 196608, 6, 65538, 327680, 8, 65537, 262144, 8, 65536, 196608, 8, 131071, 262144, 8, 131070, 196608, 8)
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Area2D" type="Area2D" parent="." groups=["obstacle"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(9, 0)
