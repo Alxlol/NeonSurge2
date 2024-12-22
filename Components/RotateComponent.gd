@@ -8,4 +8,8 @@ func _physics_process(delta):
 	sprite.rotate(rotate_speed * delta)
 	
 	if Input.is_action_just_pressed("Rotate"):
-		sprite.rotate(rotate_speed)
+		rotate_player()
+
+
+func rotate_player():
+	sprite.rotate(rotate_speed)

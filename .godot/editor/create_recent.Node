@@ -1,5 +1,5 @@
-RotateComponent
 Button
+RotateComponent
 CollisionShape2D
 Area2D
 TileMap
@@ -12,4 +12,3 @@ VisibleOnScreenNotifier2D
 ShieldComponent
 ScaleComponent
 AnimatedSprite2D
-ThrustComponent

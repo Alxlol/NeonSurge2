@@ -77,10 +77,10 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_tucvk"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ulyqg"]
 size = Vector2(26, 25)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ulyqg"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tucvk"]
 size = Vector2(26, 25)
 
 [node name="Player" type="RigidBody2D"]
@@ -119,16 +119,16 @@ thrust_animation = NodePath("../Ship/Engine/ThrustAnimation")
 position = Vector2(-5.96046e-07, 1.5)
 scale = Vector2(1.3, 1.25)
 
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_ulyqg")
+
 [node name="Area2D" type="Area2D" parent="." groups=["player"]]
 position = Vector2(0, 0.5)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(0, 1)
 shape = SubResource("RectangleShape2D_tucvk")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 1.5)
-shape = SubResource("RectangleShape2D_ulyqg")
 
 [connection signal="animation_finished" from="Ship/Engine/ThrustAnimation" to="ThrustComponent" method="_on_thrust_animation_animation_finished"]
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

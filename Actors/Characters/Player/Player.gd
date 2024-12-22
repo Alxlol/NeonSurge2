@@ -2,6 +2,8 @@ class_name Player
 extends RigidBody2D
 
 @onready var start_position : Vector2 = position
+@onready var rotate_component : RotateComponent = get_node('RotateComponent')
+@onready var thrust_component : ThrustComponent = get_node('ThrustComponent')
 
 func take_damage():
 	PlayerState.decrement_health(1)
