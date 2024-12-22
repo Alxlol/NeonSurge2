@@ -4,3 +4,4 @@ res://Actors/Characters/Player/Player.tscn
 res://UI/UserInterface.tscn
 res://UI/UserInterface.gd
 res://Actors/Characters/Player/Player.gd
+res://Actors/Obstacle/Obstacle.tscn

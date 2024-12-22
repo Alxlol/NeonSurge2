@@ -19,18 +19,20 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = -60.0
-offset_top = -58.0
-offset_right = -20.0
-offset_bottom = -18.0
+offset_top = -60.0
 grow_horizontal = 0
 grow_vertical = 0
 focus_mode = 0
 
 [node name="Health" type="Label" parent="."]
-layout_mode = 0
-offset_left = 11.0
-offset_right = 51.0
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -4.0
+offset_right = 6.0
 offset_bottom = 23.0
+grow_horizontal = 2
 text = "3"
 
 [node name="RotateButton" type="Button" parent="."]
@@ -38,10 +40,8 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 20.0
-offset_top = -59.0
+offset_top = -60.0
 offset_right = 60.0
-offset_bottom = -19.0
 grow_vertical = 0
 focus_mode = 0
 

@@ -21,8 +21,8 @@ PlayerState="*res://Globals/PlayerState.gd"
 
 [display]
 
-window/size/viewport_width=320
-window/size/viewport_height=480
+window/size/viewport_width=360
+window/size/viewport_height=700
 window/size/window_width_override=640
 window/size/window_height_override=960
 window/stretch/mode="canvas_items"
