@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://kghdlox5n662"]
+[gd_scene load_steps=4 format=3 uid="uid://kghdlox5n662"]
 
 [ext_resource type="Script" path="res://UI/UserInterface.gd" id="1_yx2ex"]
+[ext_resource type="Texture2D" uid="uid://bk41oj14odeft" path="res://Art/UI/rocket-thruster.png" id="2_mcxn5"]
+[ext_resource type="Texture2D" uid="uid://67octujlktku" path="res://Art/UI/clockwise-rotation.png" id="2_vbc7n"]
 
 [node name="UserInterface" type="Control"]
 layout_mode = 3
@@ -18,11 +20,18 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -60.0
-offset_top = -60.0
+offset_left = -90.0
+offset_top = -90.0
+offset_right = -20.0
+offset_bottom = -20.0
 grow_horizontal = 0
 grow_vertical = 0
 focus_mode = 0
+
+[node name="Sprite2D" type="Sprite2D" parent="ThrustButton"]
+position = Vector2(35, 35)
+scale = Vector2(0.136719, 0.136719)
+texture = ExtResource("2_mcxn5")
 
 [node name="Health" type="Label" parent="."]
 layout_mode = 1
@@ -40,10 +49,17 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_top = -60.0
-offset_right = 60.0
+offset_left = 20.0
+offset_top = -90.0
+offset_right = 90.0
+offset_bottom = -20.0
 grow_vertical = 0
 focus_mode = 0
+
+[node name="Sprite2D" type="Sprite2D" parent="RotateButton"]
+position = Vector2(35, 35)
+scale = Vector2(0.136719, 0.136719)
+texture = ExtResource("2_vbc7n")
 
 [connection signal="pressed" from="ThrustButton" to="." method="_on_thrust_button_pressed"]
 [connection signal="pressed" from="RotateButton" to="." method="_on_rotate_button_pressed"]

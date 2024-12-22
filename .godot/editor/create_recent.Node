@@ -1,10 +1,10 @@
+Sprite2D
 WorldEnvironment
 Button
 RotateComponent
 CollisionShape2D
 Area2D
 TileMap
-Sprite2D
 Label
 TextEdit
 StatComponent

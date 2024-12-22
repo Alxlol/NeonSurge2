@@ -22,7 +22,55 @@ texture = ExtResource("1_yec5f")
 [node name="UserInterface" parent="." instance=ExtResource("3_xjwvt")]
 
 [node name="Pickup" parent="." instance=ExtResource("5_qpk7n")]
-position = Vector2(184, 178)
+position = Vector2(181, 85)
+
+[node name="Pickup3" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(161, 85)
 
 [node name="Pickup2" parent="." instance=ExtResource("5_qpk7n")]
-position = Vector2(233, 234)
+position = Vector2(201, 85)
+
+[node name="Pickup4" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(181, 105)
+
+[node name="Pickup5" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(161, 105)
+
+[node name="Pickup6" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(201, 105)
+
+[node name="Pickup7" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(69, 85)
+
+[node name="Pickup8" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(49, 85)
+
+[node name="Pickup9" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(89, 85)
+
+[node name="Pickup10" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(69, 105)
+
+[node name="Pickup11" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(49, 105)
+
+[node name="Pickup12" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(89, 105)
+
+[node name="Pickup13" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(285, 85)
+
+[node name="Pickup14" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(265, 85)
+
+[node name="Pickup15" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(305, 85)
+
+[node name="Pickup16" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(285, 105)
+
+[node name="Pickup17" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(265, 105)
+
+[node name="Pickup18" parent="." instance=ExtResource("5_qpk7n")]
+position = Vector2(305, 105)
