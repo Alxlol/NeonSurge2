@@ -1,10 +1,9 @@
 res://Levels/World.tscn
-res://Globals/GameState.gd
 res://Actors/Characters/Player/Player.tscn
-res://UI/UserInterface.tscn
 res://Actors/Obstacle/Obstacle.tscn
-res://Components/RotateComponent.gd
-res://UI/UserInterface.gd
 res://Globals/PlayerState.gd
-res://Actors/Obstacle/Obstacle.gd
 res://Actors/Characters/Player/Player.gd
+res://Actors/Pickup/Pickup.tscn
+res://UI/UserInterface.tscn
+res://UI/UserInterface.gd
+res://Components/ThrustComponent.gd

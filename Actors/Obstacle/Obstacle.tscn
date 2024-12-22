@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://rt6whdr4ciw3"]
+[gd_scene load_steps=6 format=4 uid="uid://rt6whdr4ciw3"]
 
 [ext_resource type="Script" path="res://Actors/Obstacle/Obstacle.gd" id="1_cspf1"]
 [ext_resource type="Texture2D" uid="uid://b5ykxes1wf28b" path="res://Art/Tilemap/rock.png" id="1_mopob"]
@@ -113,20 +113,20 @@ tile_size = Vector2i(18, 18)
 sources/0 = SubResource("TileSetAtlasSource_yrhtt")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7deeq"]
-size = Vector2(89.5, 72)
+size = Vector2(107.75, 72)
 
 [node name="Obstacle" type="Node2D"]
 script = ExtResource("1_cspf1")
 
-[node name="TileMap" type="TileMap" parent="."]
+[node name="Layer0" type="TileMapLayer" parent="."]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAD+////AAADAAcAAAD/////AAAEAAcAAAAAAP//AAADAAYAAAABAP//AAAEAAYAAAACAP//AAAFAAYAAAD+/wAAAAADAAgAAAACAAAAAAAFAAcAAAAAAAAAAAADAAcAAAABAAAAAAAEAAcAAAD//wAAAAAEAAgAAAD///7/AAAEAAYAAAAAAP7/AAAFAAYAAAABAP7/AAAEAAEAAAACAP7/AAAFAAYAAAD+//7/AAADAAYAAAACAAEAAAAFAAgAAAABAAEAAAAEAAgAAAAAAAEAAAADAAgAAAD//wEAAAAEAAgAAAD+/wEAAAADAAgAAAD9//7/AAADAAMAAAD9////AAADAAQAAAD9/wAAAAADAAUAAAD9/wEAAAABAAIAAAA=")
 tile_set = SubResource("TileSet_r7u35")
-format = 2
-layer_0/tile_data = PackedInt32Array(-2, 196608, 7, -1, 262144, 7, -65536, 196608, 6, -65535, 262144, 6, -65534, 327680, 6, 65534, 196608, 8, 2, 327680, 7, 0, 196608, 7, 1, 262144, 7, 65535, 262144, 8, -65537, 262144, 6, -131072, 327680, 6, -131071, 262144, 1, -131070, 327680, 6, -65538, 196608, 6, 65538, 327680, 8, 65537, 262144, 8, 65536, 196608, 8, 131071, 262144, 8, 131070, 196608, 8)
 
 [node name="Area2D" type="Area2D" parent="." groups=["obstacle"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(9, 0)
+position = Vector2(-0.125, 0)
 shape = SubResource("RectangleShape2D_7deeq")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
