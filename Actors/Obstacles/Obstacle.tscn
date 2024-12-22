@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=4 uid="uid://rt6whdr4ciw3"]
 
-[ext_resource type="Script" path="res://Actors/Obstacle/Obstacle.gd" id="1_cspf1"]
+[ext_resource type="Script" path="res://Actors/Obstacles/Obstacle.gd" id="1_cspf1"]
 [ext_resource type="Texture2D" uid="uid://b5ykxes1wf28b" path="res://Art/Tilemap/rock.png" id="1_mopob"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yrhtt"]

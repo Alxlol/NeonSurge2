@@ -5,3 +5,5 @@ res://UI/UserInterface.tscn
 res://UI/UserInterface.gd
 res://Actors/Characters/Player/Player.gd
 res://Actors/Obstacle/Obstacle.tscn
+res://Actors/Obstacles/Obstacle.tscn
+res://Art/Tilemap/tile_set.tres

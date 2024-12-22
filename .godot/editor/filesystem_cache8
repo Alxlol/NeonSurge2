@@ -1,16 +1,16 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1734878971
+::res://::1734898831
 export_presets.cfg::TextFile::-1::1734871335::0::1::::<><>::
 ::res://Actors/::1734864447
 ::res://Actors/Characters/::1734815347
-::res://Actors/Characters/Player/::1734898315
+::res://Actors/Characters/Player/::1734898845
 Player.gd::GDScript::-1::1734872185::0::1::::Player<>RigidBody2D<>::
-Player.tscn::PackedScene::8862406351357476898::1734898315::0::1::::<><>::uid://cyu461wyilqj7::::res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png<>res://Actors/Characters/Player/Player.gd<>uid://clmafet1gigm::::res://Art/Spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Base Engine.png<>res://Components/RotateComponent.gd<>uid://ciwo11eak8klu::::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Idle.png<>res://Components/ThrustComponent.gd<>uid://dtjxt743uyocf::::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Spritesheet.png
-::res://Actors/Obstacle/::1734898315
+Player.tscn::PackedScene::8862406351357476898::1734898845::0::1::::<><>::uid://cyu461wyilqj7::::res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png<>res://Actors/Characters/Player/Player.gd<>uid://clmafet1gigm::::res://Art/Spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Base Engine.png<>res://Components/RotateComponent.gd<>uid://ciwo11eak8klu::::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Idle.png<>res://Components/ThrustComponent.gd<>uid://dtjxt743uyocf::::res://Art/Spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Spritesheet.png
+::res://Actors/Obstacle/::1734898845
 Obstacle.gd::GDScript::-1::1734817659::0::1::::<>Node2D<>::
-Obstacle.tscn::PackedScene::1234355406524463208::1734898315::0::1::::<><>::res://Actors/Obstacle/Obstacle.gd<>uid://b5ykxes1wf28b::::res://Art/Tilemap/rock.png
-::res://Actors/Pickup/::1734898315
-Pickup.tscn::PackedScene::7901779461567722261::1734898315::0::1::::<><>::uid://b26nny02eacl1::::res://Art/Pickups/diamond_pickup_16x16.png
+Obstacle.tscn::PackedScene::1234355406524463208::1734898968::0::1::::<><>::res://Actors/Obstacle/Obstacle.gd<>uid://b5ykxes1wf28b::::res://Art/Tilemap/rock.png
+::res://Actors/Pickup/::1734898919
+Pickup.tscn::PackedScene::7901779461567722261::1734898919::0::1::::<><>::uid://b26nny02eacl1::::res://Art/Pickups/diamond_pickup_16x16.png
 ::res://Addons/::1734815347
 ::res://Addons/script-tabs/::1734815347
 plugin.cfg::TextFile::-1::1734815347::0::1::::<><>::
@@ -18,7 +18,7 @@ plugin.gd::GDScript::-1::1734815347::0::1::::<>EditorPlugin<>::
 ::res://Art/::1734864829
 ::res://Art/Backgrounds/::1734815396
 Blue_Nebula_01-1024x1024.png::CompressedTexture2D::705004693690016259::1734815347::1734815396::1::::<><>::
-::res://Art/Pickups/::1734898468
+::res://Art/Pickups/::1734898469
 diamond_pickup.png::CompressedTexture2D::1538043026745668162::1734878612::1734878972::1::::<><>::
 diamond_pickup_16x16.png::CompressedTexture2D::4346329008935174520::1734898468::1734898469::1::::<><>::
 star_bronze.png::CompressedTexture2D::7756921625324157101::1734875909::1734875915::1::::<><>::
@@ -90,8 +90,8 @@ ThrustComponent.gd::GDScript::-1::1734867341::0::1::::ThrustComponent<>Node<>::
 ::res://Globals/::1734869699
 GameState.gd::GDScript::-1::1734815420::0::1::::<>Node<>::
 PlayerState.gd::GDScript::-1::1734869699::0::1::::<>Node<>::
-::res://Levels/::1734898315
-World.tscn::PackedScene::6392417098081116270::1734898315::0::1::::<><>::uid://kbrla5nieg6n::::res://Art/Backgrounds/Blue_Nebula_01-1024x1024.png<>uid://kghdlox5n662::::res://UI/UserInterface.tscn<>uid://dktxfhgbacm26::::res://Actors/Pickup/Pickup.tscn
-::res://UI/::1734898315
+::res://Levels/::1734898845
+World.tscn::PackedScene::6392417098081116270::1734898845::0::1::::<><>::uid://kbrla5nieg6n::::res://Art/Backgrounds/Blue_Nebula_01-1024x1024.png<>uid://kghdlox5n662::::res://UI/UserInterface.tscn<>uid://dktxfhgbacm26::::res://Actors/Pickup/Pickup.tscn
+::res://UI/::1734898845
 UserInterface.gd::GDScript::-1::1734872809::0::1::::<>Control<>::
-UserInterface.tscn::PackedScene::714705679705528541::1734898315::0::1::::<><>::res://UI/UserInterface.gd<>uid://bk41oj14odeft::::res://Art/UI/rocket-thruster.png<>uid://67octujlktku::::res://Art/UI/clockwise-rotation.png
+UserInterface.tscn::PackedScene::714705679705528541::1734898845::0::1::::<><>::res://UI/UserInterface.gd<>uid://bk41oj14odeft::::res://Art/UI/rocket-thruster.png<>uid://67octujlktku::::res://Art/UI/clockwise-rotation.png
