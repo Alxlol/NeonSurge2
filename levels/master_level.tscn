@@ -1,23 +1,16 @@
 [gd_scene load_steps=3 format=3 uid="uid://cxcsf8cg45ri1"]
 
-[ext_resource type="Texture2D" uid="uid://kbrla5nieg6n" path="res://art/backgrounds/Blue_Nebula_01-1024x1024.png" id="1_kes3w"]
 [ext_resource type="PackedScene" uid="uid://kghdlox5n662" path="res://ui/ui.tscn" id="2_dpltq"]
+[ext_resource type="PackedScene" uid="uid://bd87gqv8t0ckm" path="res://scenes/background.tscn" id="2_ga8ta"]
 
 [node name="Main" type="Node"]
 metadata/_edit_horizontal_guides_ = [37.0]
 
-[node name="BG" type="TextureRect" parent="."]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -384.0
-offset_top = -417.0
-offset_right = 480.0
-offset_bottom = 367.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("1_kes3w")
-metadata/_edit_lock_ = true
+[node name="Background" parent="." instance=ExtResource("2_ga8ta")]
+offset_left = 3.0
+offset_top = 2.0
+offset_right = 3.0
+offset_bottom = 2.0
 
 [node name="UI" parent="." instance=ExtResource("2_dpltq")]
 metadata/_edit_lock_ = true

@@ -18,3 +18,5 @@ res://ui/ui.gd
 res://global/game_state.gd
 res://scenes/levels/World2.tscn
 res://levels/master_level.tscn
+res://scenes/background.tscn
+res://scenes/background.gd

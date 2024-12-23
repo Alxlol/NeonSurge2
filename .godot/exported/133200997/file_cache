@@ -1,7 +1,7 @@
 res://art/tilemaps/tile_set.tres::92b1fa655c65ccc6fa013f6111712125::1734960124::res://.godot/exported/133200997/export-0029921ead3b487eeb6d858e45b2569a-tile_set.res
-res://scenes/levels/World.tscn::32d959bc8197989e557d4b18294285ec::1734961924::res://.godot/exported/133200997/export-262dc7d26df4614f034a0d56ae9feea3-World.scn
 res://scenes/obstacle.tscn::f49a198b105abb8a6c4f2d2e81f76203::1734960127::res://.godot/exported/133200997/export-4d229fce99bc30f190803dcf0c53b994-obstacle.scn
 res://scenes/Pickup.tscn::c1671bf583ce25df4fb63d58981a8ee4::1734960115::res://.godot/exported/133200997/export-81720f7f34c842f5aabf5283738f7ec2-Pickup.scn
 res://scenes/player.tscn::c37252cea4f3931c7f816e10beb6e4a4::1734960118::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
-res://ui/button.tres::ac05c0c089fe5315f6555d771e35d997::1734961912::res://.godot/exported/133200997/export-10dddfe04610c4d1dfcb358184f64d73-button.res
+res://ui/button.tres::1e63acad43e4b72030fb5cfc69088868::1734962427::res://.godot/exported/133200997/export-10dddfe04610c4d1dfcb358184f64d73-button.res
 res://ui/ui.tscn::9b7eac9850756eb99033d9950462f97c::1734961924::res://.godot/exported/133200997/export-388bf9857f8605ce0d560309bd309226-ui.scn
+res://levels/master_level.tscn::40d3a4a44148ba601451790fc11db3c4::1734962437::res://.godot/exported/133200997/export-693a125f16e2c89d83f7b72a66bc5a59-master_level.scn
