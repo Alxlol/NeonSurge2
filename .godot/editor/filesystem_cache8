@@ -1,8 +1,8 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1734962318
+::res://::1734980545
 export_presets.cfg::TextFile::-1::1734871335::0::1::::<><>::
 ::res://apk/::1734871017
-::res://art/::1734960124
+::res://art/::1734980545
 ::res://art/backgrounds/::1734962511
 Blue_Nebula_01-1024x1024.png::CompressedTexture2D::705004693690016259::1734815347::1734960113::1::::<><>::
 Starfield_04-1024x1024.png::CompressedTexture2D::3541366103371866473::1734962511::1734962511::1::::<><>::
@@ -67,9 +67,9 @@ Main ship weapon - Projectile - Zapper.png::CompressedTexture2D::650389769524835
 ::res://art/tilemaps/::1734960124
 rock.png::CompressedTexture2D::4542279541229813783::1734815347::1734960121::1::::<><>::
 tile_set.tres::TileSet::3930530033506784142::1734960124::0::1::::<><>::uid://b5ykxes1wf28b::::res://art/tilemaps/rock.png
-::res://art/ui/::1734960124
-button_square.png::CompressedTexture2D::3371321189872373955::1734865122::1734960124::1::::<><>::
+::res://art/ui/::1734980545
 clockwise-rotation.png::CompressedTexture2D::2242768879659231956::1671565769::1734960124::1::::<><>::
+pause-button.png::CompressedTexture2D::3737894911569378549::1734980542::1734980545::1::::<><>::
 rocket-thruster.png::CompressedTexture2D::3149780232079279845::1671565798::1734960124::1::::<><>::
 ::res://components/::1734959947
 rotate_component.gd::GDScript::-1::1734869151::0::1::::RotateComponent<>Node<>::
@@ -80,15 +80,16 @@ thrust_component.gd::GDScript::-1::1734867341::0::1::::ThrustComponent<>Node<>::
 ::res://global/::1734962140
 game_state.gd::GDScript::-1::1734962119::0::1::::<>Node<>::
 player_state.gd::GDScript::-1::1734962140::0::1::::<>Node<>::
-::res://levels/::1734962437
-master_level.tscn::PackedScene::6392417098081116270::1734962437::0::1::::<><>::uid://kbrla5nieg6n::::res://art/backgrounds/Blue_Nebula_01-1024x1024.png<>uid://kghdlox5n662::::res://ui/ui.tscn
-::res://scenes/::1734962312
+::res://levels/::1734980417
+master_level.tscn::PackedScene::6392417098081116270::1734980417::0::1::::<><>::uid://kghdlox5n662::::res://ui/ui.tscn<>uid://bd87gqv8t0ckm::::res://scenes/background.tscn
+::res://scenes/::1734980417
+background.gd::GDScript::-1::1734964787::0::1::::<>Control<>::
+background.tscn::PackedScene::2667066213363366720::1734980417::0::1::::<><>::uid://kbrla5nieg6n::::res://art/backgrounds/Blue_Nebula_01-1024x1024.png<>res://scenes/background.gd<>uid://bqpp1umnxg8iv::::res://art/backgrounds/Starfield_04-1024x1024.png
 obstacle.gd::GDScript::-1::1734817659::0::1::::<>Node2D<>::
 obstacle.tscn::PackedScene::1234355406524463208::1734960127::0::1::::<><>::res://scenes/obstacle.gd<>uid://b5ykxes1wf28b::::res://art/tilemaps/rock.png
 Pickup.tscn::PackedScene::7901779461567722261::1734960115::0::1::::<><>::uid://b26nny02eacl1::::res://art/pickups/diamond_pickup_16x16.png
 player.gd::GDScript::-1::1734899881::0::1::::Player<>RigidBody2D<>::
 player.tscn::PackedScene::8862406351357476898::1734960118::0::1::::<><>::res://scenes/player.gd<>uid://cyu461wyilqj7::::res://art/spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png<>uid://clmafet1gigm::::res://art/spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Base Engine.png<>uid://ciwo11eak8klu::::res://art/spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Idle.png<>uid://dtjxt743uyocf::::res://art/spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Spritesheet.png<>res://components/rotate_component.gd<>res://components/thrust_component.gd
-::res://ui/::1734962427
-button.tres::Theme::945273884263769375::1734962427::0::1::::<><>::
-ui.gd::GDScript::-1::1734962045::0::1::::<>Control<>::
-ui.tscn::PackedScene::714705679705528541::1734961924::0::1::::<><>::res://ui/ui.gd<>uid://bk41oj14odeft::::res://art/ui/rocket-thruster.png<>uid://np5r1k4eyjkh::::res://ui/button.tres<>uid://67octujlktku::::res://art/ui/clockwise-rotation.png
+::res://ui/::1734980417
+ui.gd::GDScript::-1::1734980414::0::1::::<>Control<>::
+ui.tscn::PackedScene::714705679705528541::1734980417::0::1::::<><>::res://ui/ui.gd<>uid://bk41oj14odeft::::res://art/ui/rocket-thruster.png<>uid://67octujlktku::::res://art/ui/clockwise-rotation.png

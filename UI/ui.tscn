@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" path="res://ui/ui.gd" id="1_yx2ex"]
 [ext_resource type="Texture2D" uid="uid://bk41oj14odeft" path="res://art/ui/rocket-thruster.png" id="2_mcxn5"]
-[ext_resource type="Theme" uid="uid://np5r1k4eyjkh" path="res://ui/button.tres" id="2_v8y6v"]
 [ext_resource type="Texture2D" uid="uid://67octujlktku" path="res://art/ui/clockwise-rotation.png" id="2_vbc7n"]
+[ext_resource type="Texture2D" uid="uid://btiwt3bnfesc0" path="res://art/ui/pause-button.png" id="3_rb6qd"]
 
 [node name="UserInterface" type="Control"]
 layout_mode = 3
@@ -14,61 +14,54 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_yx2ex")
 
-[node name="RotateContainer" type="MarginContainer" parent="."]
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 1
-anchors_preset = 2
+anchors_preset = 12
 anchor_top = 1.0
+anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -90.0
-offset_right = 90.0
+offset_top = -80.0
+grow_horizontal = 2
 grow_vertical = 0
-theme_override_constants/margin_left = 10
-theme_override_constants/margin_top = 0
-theme_override_constants/margin_right = 0
-theme_override_constants/margin_bottom = 10
+theme_override_constants/separation = 85
 
-[node name="RotateButton" type="Button" parent="RotateContainer"]
+[node name="RotateButton" type="TextureButton" parent="HBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
-focus_mode = 0
-theme = ExtResource("2_v8y6v")
-icon = ExtResource("2_vbc7n")
-icon_alignment = 1
-expand_icon = true
+texture_normal = ExtResource("2_vbc7n")
+ignore_texture_size = true
+stretch_mode = 5
 
-[node name="Health" type="Label" parent="."]
+[node name="PauseButton" type="TextureButton" parent="HBoxContainer"]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+texture_normal = ExtResource("3_rb6qd")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="ThrustButton" type="TextureButton" parent="HBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture_normal = ExtResource("2_mcxn5")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -4.0
-offset_right = 6.0
-offset_bottom = 23.0
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 40.0
 grow_horizontal = 2
-text = "3"
+theme_override_constants/margin_top = 30
 
-[node name="ThrustContainer" type="MarginContainer" parent="."]
-layout_mode = 1
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -90.0
-offset_top = -90.0
-grow_horizontal = 0
-grow_vertical = 0
-theme_override_constants/margin_left = 0
-theme_override_constants/margin_top = 0
-theme_override_constants/margin_right = 10
-theme_override_constants/margin_bottom = 10
-
-[node name="ThrustButton" type="Button" parent="ThrustContainer"]
+[node name="Health" type="Label" parent="MarginContainer"]
 layout_mode = 2
-focus_mode = 0
-theme = ExtResource("2_v8y6v")
-icon = ExtResource("2_mcxn5")
-icon_alignment = 1
-expand_icon = true
+text = "3"
+horizontal_alignment = 1
 
-[connection signal="pressed" from="RotateContainer/RotateButton" to="." method="_on_rotate_button_pressed"]
-[connection signal="pressed" from="ThrustContainer/ThrustButton" to="." method="_on_thrust_button_pressed"]
+[connection signal="pressed" from="HBoxContainer/RotateButton" to="." method="_on_rotate_button_pressed"]
+[connection signal="pressed" from="HBoxContainer/PauseButton" to="." method="_on_pause_button_pressed"]
+[connection signal="pressed" from="HBoxContainer/ThrustButton" to="." method="_on_thrust_button_pressed"]

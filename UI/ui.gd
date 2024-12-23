@@ -12,3 +12,7 @@ func _on_thrust_button_pressed() -> void:
 
 func _on_rotate_button_pressed() -> void:
 	PlayerState.player_instance.rotate_component.rotate_player()
+
+
+func _on_pause_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://levels/master_level.tscn")
