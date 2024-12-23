@@ -15,3 +15,6 @@ res://art/Tilemap/tile_set.tres
 res://art/tilemaps/tile_set.tres
 res://ui/button.tres
 res://ui/ui.gd
+res://global/game_state.gd
+res://scenes/levels/World2.tscn
+res://levels/master_level.tscn

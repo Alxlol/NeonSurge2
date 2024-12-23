@@ -2,7 +2,6 @@ extends Control
 @onready var health = $Health
 
 func _ready():
-	PlayerState.respawn_player(Vector2(160, 256))
 	PlayerState.set_new_health.connect(update_health)
 
 func update_health(new_health):
