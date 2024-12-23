@@ -13,3 +13,5 @@ res://ui/UI.tscn
 res://ui/ui.tscn
 res://art/Tilemap/tile_set.tres
 res://art/tilemaps/tile_set.tres
+res://ui/button.tres
+res://ui/ui.gd

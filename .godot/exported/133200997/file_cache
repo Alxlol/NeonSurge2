@@ -1,6 +1,7 @@
-res://Actors/Characters/Player/Player.tscn::48b1c0671bc7762d144b3644bf567844::1734899948::res://.godot/exported/133200997/export-f535524f71e4c379c6a8287cf142c62b-Player.scn
-res://Actors/Pickup/Pickup.tscn::348cd662317ea998308aa28ab2157fe7::1734899024::res://.godot/exported/133200997/export-d8e609cf2b9d1842751c2fd3e175c770-Pickup.scn
-res://Levels/World.tscn::323404188a6e667c90b9df9e6566bd6f::1734899948::res://.godot/exported/133200997/export-d2482682bdc7d896fbfcdaed3cff5d60-World.scn
-res://UI/UserInterface.tscn::180631069e12cc55f0585980f9bb964f::1734899948::res://.godot/exported/133200997/export-b4ab45b1644acae075da8fccea9072c1-UserInterface.scn
-res://Actors/Obstacles/Obstacle.tscn::8c2bf136ce97bcfe4beab7a34507127e::1734899948::res://.godot/exported/133200997/export-c7a710ebe4cd768319b4c7ed119fde11-Obstacle.scn
-res://Art/Tilemap/tile_set.tres::567d3719fb7d34080d44391a9beb1509::1734899863::res://.godot/exported/133200997/export-5e5cf5237477d9ad533a027a8b09b04e-tile_set.res
+res://art/tilemaps/tile_set.tres::92b1fa655c65ccc6fa013f6111712125::1734960124::res://.godot/exported/133200997/export-0029921ead3b487eeb6d858e45b2569a-tile_set.res
+res://scenes/levels/World.tscn::32d959bc8197989e557d4b18294285ec::1734961924::res://.godot/exported/133200997/export-262dc7d26df4614f034a0d56ae9feea3-World.scn
+res://scenes/obstacle.tscn::f49a198b105abb8a6c4f2d2e81f76203::1734960127::res://.godot/exported/133200997/export-4d229fce99bc30f190803dcf0c53b994-obstacle.scn
+res://scenes/Pickup.tscn::c1671bf583ce25df4fb63d58981a8ee4::1734960115::res://.godot/exported/133200997/export-81720f7f34c842f5aabf5283738f7ec2-Pickup.scn
+res://scenes/player.tscn::c37252cea4f3931c7f816e10beb6e4a4::1734960118::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://ui/button.tres::ac05c0c089fe5315f6555d771e35d997::1734961912::res://.godot/exported/133200997/export-10dddfe04610c4d1dfcb358184f64d73-button.res
+res://ui/ui.tscn::9b7eac9850756eb99033d9950462f97c::1734961924::res://.godot/exported/133200997/export-388bf9857f8605ce0d560309bd309226-ui.scn

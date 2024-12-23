@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://kghdlox5n662"]
+[gd_scene load_steps=5 format=3 uid="uid://kghdlox5n662"]
 
 [ext_resource type="Script" path="res://ui/ui.gd" id="1_yx2ex"]
 [ext_resource type="Texture2D" uid="uid://bk41oj14odeft" path="res://art/ui/rocket-thruster.png" id="2_mcxn5"]
+[ext_resource type="Theme" uid="uid://np5r1k4eyjkh" path="res://ui/button.tres" id="2_v8y6v"]
 [ext_resource type="Texture2D" uid="uid://67octujlktku" path="res://art/ui/clockwise-rotation.png" id="2_vbc7n"]
 
 [node name="UserInterface" type="Control"]
@@ -13,25 +14,26 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_yx2ex")
 
-[node name="ThrustButton" type="Button" parent="."]
+[node name="RotateContainer" type="MarginContainer" parent="."]
 layout_mode = 1
-anchors_preset = 3
-anchor_left = 1.0
+anchors_preset = 2
 anchor_top = 1.0
-anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -90.0
 offset_top = -90.0
-offset_right = -20.0
-offset_bottom = -20.0
-grow_horizontal = 0
+offset_right = 90.0
 grow_vertical = 0
-focus_mode = 0
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 10
 
-[node name="Sprite2D" type="Sprite2D" parent="ThrustButton"]
-position = Vector2(35, 35)
-scale = Vector2(0.136719, 0.136719)
-texture = ExtResource("2_mcxn5")
+[node name="RotateButton" type="Button" parent="RotateContainer"]
+layout_mode = 2
+focus_mode = 0
+theme = ExtResource("2_v8y6v")
+icon = ExtResource("2_vbc7n")
+icon_alignment = 1
+expand_icon = true
 
 [node name="Health" type="Label" parent="."]
 layout_mode = 1
@@ -44,22 +46,29 @@ offset_bottom = 23.0
 grow_horizontal = 2
 text = "3"
 
-[node name="RotateButton" type="Button" parent="."]
+[node name="ThrustContainer" type="MarginContainer" parent="."]
 layout_mode = 1
-anchors_preset = 2
+anchors_preset = 3
+anchor_left = 1.0
 anchor_top = 1.0
+anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 20.0
+offset_left = -90.0
 offset_top = -90.0
-offset_right = 90.0
-offset_bottom = -20.0
+grow_horizontal = 0
 grow_vertical = 0
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="ThrustButton" type="Button" parent="ThrustContainer"]
+layout_mode = 2
 focus_mode = 0
+theme = ExtResource("2_v8y6v")
+icon = ExtResource("2_mcxn5")
+icon_alignment = 1
+expand_icon = true
 
-[node name="Sprite2D" type="Sprite2D" parent="RotateButton"]
-position = Vector2(35, 35)
-scale = Vector2(0.136719, 0.136719)
-texture = ExtResource("2_vbc7n")
-
-[connection signal="pressed" from="ThrustButton" to="." method="_on_thrust_button_pressed"]
-[connection signal="pressed" from="RotateButton" to="." method="_on_rotate_button_pressed"]
+[connection signal="pressed" from="RotateContainer/RotateButton" to="." method="_on_rotate_button_pressed"]
+[connection signal="pressed" from="ThrustContainer/ThrustButton" to="." method="_on_thrust_button_pressed"]
