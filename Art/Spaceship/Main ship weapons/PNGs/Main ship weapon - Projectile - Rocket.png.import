@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drdngcvsh1j4g"
-path="res://.godot/imported/Main ship weapon - Projectile - Rocket.png-d8e65d89377e163fc4c499a0e484b4e9.ctex"
+path="res://.godot/imported/Main ship weapon - Projectile - Rocket.png-8d3fa553fd8ec9364770e62dc6e148e6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Spaceship/Main ship weapons/PNGs/Main ship weapon - Projectile - Rocket.png"
-dest_files=["res://.godot/imported/Main ship weapon - Projectile - Rocket.png-d8e65d89377e163fc4c499a0e484b4e9.ctex"]
+source_file="res://art/spaceship/Main ship weapons/PNGs/Main ship weapon - Projectile - Rocket.png"
+dest_files=["res://.godot/imported/Main ship weapon - Projectile - Rocket.png-8d3fa553fd8ec9364770e62dc6e148e6.ctex"]
 
 [params]
 

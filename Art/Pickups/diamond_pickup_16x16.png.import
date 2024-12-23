@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b26nny02eacl1"
-path="res://.godot/imported/diamond_pickup_16x16.png-7d965ba41e4398cc4f478a2c2f14fa04.ctex"
+path="res://.godot/imported/diamond_pickup_16x16.png-8daf0fc0f06dcf44402ba8e5602c22e6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Pickups/diamond_pickup_16x16.png"
-dest_files=["res://.godot/imported/diamond_pickup_16x16.png-7d965ba41e4398cc4f478a2c2f14fa04.ctex"]
+source_file="res://art/pickups/diamond_pickup_16x16.png"
+dest_files=["res://.godot/imported/diamond_pickup_16x16.png-8daf0fc0f06dcf44402ba8e5602c22e6.ctex"]
 
 [params]
 

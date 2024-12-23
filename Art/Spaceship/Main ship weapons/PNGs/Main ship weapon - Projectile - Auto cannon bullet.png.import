@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dc7w5y1e6q5uj"
-path="res://.godot/imported/Main ship weapon - Projectile - Auto cannon bullet.png-4185941550a0d86545cbcb115b2ef061.ctex"
+path="res://.godot/imported/Main ship weapon - Projectile - Auto cannon bullet.png-763d167cc58561d352015b31617e4afd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Spaceship/Main ship weapons/PNGs/Main ship weapon - Projectile - Auto cannon bullet.png"
-dest_files=["res://.godot/imported/Main ship weapon - Projectile - Auto cannon bullet.png-4185941550a0d86545cbcb115b2ef061.ctex"]
+source_file="res://art/spaceship/Main ship weapons/PNGs/Main ship weapon - Projectile - Auto cannon bullet.png"
+dest_files=["res://.godot/imported/Main ship weapon - Projectile - Auto cannon bullet.png-763d167cc58561d352015b31617e4afd.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://67octujlktku"
-path="res://.godot/imported/clockwise-rotation.png-f4234dea581085d4e48f2006975b8f74.ctex"
+path="res://.godot/imported/clockwise-rotation.png-00081885eda4d71bf05a333167cfb2bd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/UI/clockwise-rotation.png"
-dest_files=["res://.godot/imported/clockwise-rotation.png-f4234dea581085d4e48f2006975b8f74.ctex"]
+source_file="res://art/ui/clockwise-rotation.png"
+dest_files=["res://.godot/imported/clockwise-rotation.png-00081885eda4d71bf05a333167cfb2bd.ctex"]
 
 [params]
 

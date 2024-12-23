@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dibjbd8v5rtsx"
-path="res://.godot/imported/Main Ship - Weapons - Zapper.png-5c92a2606e43a821c78f79d0b907f514.ctex"
+path="res://.godot/imported/Main Ship - Weapons - Zapper.png-b3b97caff42bb8f14a15a198c854c5f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Spaceship/Main Ship/Main Ship - Weapons/PNGs/Main Ship - Weapons - Zapper.png"
-dest_files=["res://.godot/imported/Main Ship - Weapons - Zapper.png-5c92a2606e43a821c78f79d0b907f514.ctex"]
+source_file="res://art/spaceship/Main Ship/Main Ship - Weapons/PNGs/Main Ship - Weapons - Zapper.png"
+dest_files=["res://.godot/imported/Main Ship - Weapons - Zapper.png-b3b97caff42bb8f14a15a198c854c5f0.ctex"]
 
 [params]
 

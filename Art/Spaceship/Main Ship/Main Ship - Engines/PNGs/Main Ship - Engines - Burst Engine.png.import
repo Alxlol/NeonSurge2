@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cer2vt805pdbm"
-path="res://.godot/imported/Main Ship - Engines - Burst Engine.png-3276ed52893cd1ca9c5017c6a7c75e2f.ctex"
+path="res://.godot/imported/Main Ship - Engines - Burst Engine.png-07e304093b1dabc10c7216e8a296547d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Burst Engine.png"
-dest_files=["res://.godot/imported/Main Ship - Engines - Burst Engine.png-3276ed52893cd1ca9c5017c6a7c75e2f.ctex"]
+source_file="res://art/spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Burst Engine.png"
+dest_files=["res://.godot/imported/Main Ship - Engines - Burst Engine.png-07e304093b1dabc10c7216e8a296547d.ctex"]
 
 [params]
 

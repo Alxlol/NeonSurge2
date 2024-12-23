@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wga3l1b64c5j"
-path="res://.godot/imported/Main Ship - Engines - Supercharged Engine.png-88c995fe8df5ada5a29078da7c09ad17.ctex"
+path="res://.godot/imported/Main Ship - Engines - Supercharged Engine.png-e44ea9e4ff9cc0ed233d575c96eac5f7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Supercharged Engine.png"
-dest_files=["res://.godot/imported/Main Ship - Engines - Supercharged Engine.png-88c995fe8df5ada5a29078da7c09ad17.ctex"]
+source_file="res://art/spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Supercharged Engine.png"
+dest_files=["res://.godot/imported/Main Ship - Engines - Supercharged Engine.png-e44ea9e4ff9cc0ed233d575c96eac5f7.ctex"]
 
 [params]
 

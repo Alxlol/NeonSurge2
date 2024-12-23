@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctdpx5faoxcpl"
-path="res://.godot/imported/Main Ship - Base - Slight damage.png-a26ca332efe65ed4f10752fab59a2c0e.ctex"
+path="res://.godot/imported/Main Ship - Base - Slight damage.png-50bc635267d0ee1a9baa3080173fc473.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Slight damage.png"
-dest_files=["res://.godot/imported/Main Ship - Base - Slight damage.png-a26ca332efe65ed4f10752fab59a2c0e.ctex"]
+source_file="res://art/spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Slight damage.png"
+dest_files=["res://.godot/imported/Main Ship - Base - Slight damage.png-50bc635267d0ee1a9baa3080173fc473.ctex"]
 
 [params]
 
