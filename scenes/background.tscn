@@ -40,7 +40,3 @@ modulate = Color(1, 1, 1, 0.392157)
 material = SubResource("CanvasItemMaterial_v164r")
 position = Vector2(140, 422)
 texture = ExtResource("2_4u0cv")
-
-[node name="Marker2D" type="Marker2D" parent="."]
-visible = false
-position = Vector2(-121, 0)
