@@ -1,7 +1,6 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1734998825
+::res://::1735127764
 export_presets.cfg::TextFile::-1::1734871335::0::1::::<><>::
-infinity_module_1.tscn::PackedScene::1047581724653503234::1734999915::0::1::::<><>::uid://cq1npxbw3t6g8::::res://levels/infinity/master_infinity_module.tscn
 ::res://apk/::1734871017
 ::res://art/::1734980545
 ::res://art/backgrounds/::1734962511
@@ -81,19 +80,20 @@ thrust_component.gd::GDScript::-1::1734867341::0::1::::ThrustComponent<>Node<>::
 ::res://global/::1734962140
 game_state.gd::GDScript::-1::1734962119::0::1::::<>Node<>::
 player_state.gd::GDScript::-1::1734962140::0::1::::<>Node<>::
-::res://levels/::1734999754
-master_level.tscn::PackedScene::6392417098081116270::1734999754::0::1::::<><>::uid://kghdlox5n662::::res://ui/ui.tscn<>uid://bd87gqv8t0ckm::::res://scenes/background.tscn<>uid://bv88ixiarhoh7::::res://art/tilemaps/tile_set.tres
+::res://levels/::1735000024
+master_level.tscn::PackedScene::6392417098081116270::1735000024::0::1::::<><>::uid://kghdlox5n662::::res://ui/ui.tscn<>uid://bd87gqv8t0ckm::::res://scenes/background.tscn<>uid://bv88ixiarhoh7::::res://art/tilemaps/tile_set.tres<>uid://o6pru0tfglbu::::res://levels/infinity/infinity_module_1.tscn
 ::res://levels/campaign/::1734998879
-::res://levels/infinity/::1734998873
-master_infinity_module.tscn::PackedScene::5950354005634449217::1734999886::0::1::::<><>::uid://bv88ixiarhoh7::::res://art/tilemaps/tile_set.tres
-::res://scenes/::1734999754
+::res://levels/infinity/::1735000024
+infinity_module_1.tscn::PackedScene::1047581724653503234::1735000024::0::1::::<><>::uid://cq1npxbw3t6g8::::res://levels/infinity/master_infinity_module.tscn
+master_infinity_module.tscn::PackedScene::5950354005634449217::1735000024::0::1::::<><>::uid://bv88ixiarhoh7::::res://art/tilemaps/tile_set.tres
+::res://scenes/::1735000024
 background.gd::GDScript::-1::1734964787::0::1::::<>Control<>::
-background.tscn::PackedScene::2667066213363366720::1734999754::0::1::::<><>::uid://kbrla5nieg6n::::res://art/backgrounds/Blue_Nebula_01-1024x1024.png<>res://scenes/background.gd<>uid://bqpp1umnxg8iv::::res://art/backgrounds/Starfield_04-1024x1024.png
+background.tscn::PackedScene::2667066213363366720::1735000024::0::1::::<><>::uid://kbrla5nieg6n::::res://art/backgrounds/Blue_Nebula_01-1024x1024.png<>res://scenes/background.gd<>uid://bqpp1umnxg8iv::::res://art/backgrounds/Starfield_04-1024x1024.png
 obstacle.gd::GDScript::-1::1734817659::0::1::::<>Node2D<>::
 obstacle.tscn::PackedScene::1234355406524463208::1734960127::0::1::::<><>::res://scenes/obstacle.gd<>uid://b5ykxes1wf28b::::res://art/tilemaps/rock.png
 Pickup.tscn::PackedScene::7901779461567722261::1734960115::0::1::::<><>::uid://b26nny02eacl1::::res://art/pickups/diamond_pickup_16x16.png
 player.gd::GDScript::-1::1734899881::0::1::::Player<>RigidBody2D<>::
 player.tscn::PackedScene::8862406351357476898::1734960118::0::1::::<><>::res://scenes/player.gd<>uid://cyu461wyilqj7::::res://art/spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png<>uid://clmafet1gigm::::res://art/spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Base Engine.png<>uid://ciwo11eak8klu::::res://art/spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Idle.png<>uid://dtjxt743uyocf::::res://art/spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Spritesheet.png<>res://components/rotate_component.gd<>res://components/thrust_component.gd
-::res://ui/::1734999754
+::res://ui/::1735000024
 ui.gd::GDScript::-1::1734980867::0::1::::<>Control<>::
-ui.tscn::PackedScene::714705679705528541::1734999754::0::1::::<><>::res://ui/ui.gd<>uid://bk41oj14odeft::::res://art/ui/rocket-thruster.png<>uid://67octujlktku::::res://art/ui/clockwise-rotation.png<>uid://btiwt3bnfesc0::::res://art/ui/pause-button.png
+ui.tscn::PackedScene::714705679705528541::1735000024::0::1::::<><>::res://ui/ui.gd<>uid://bk41oj14odeft::::res://art/ui/rocket-thruster.png<>uid://67octujlktku::::res://art/ui/clockwise-rotation.png<>uid://btiwt3bnfesc0::::res://art/ui/pause-button.png

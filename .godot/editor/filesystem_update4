@@ -1,7 +1,5 @@
+res://levels/infinity/master_infinity_module.tscn
+res://art/tilemaps/tile_set.tres
 res://levels/master_level.tscn
 res://scenes/background.tscn
 res://ui/ui.tscn
-res://art/tilemaps/tile_set.tres
-res://levels/infinity/master_infinity_module.tscn
-res://infinity_module_1.tscn
-res://levels/infinity/infinity_module_1.tscn

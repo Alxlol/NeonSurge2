@@ -1,8 +1,9 @@
+CanvasLayer
+BoxContainer
 TileMapLayer
 MarginContainer
 TextureButton
 CenterContainer
-CanvasLayer
 HBoxContainer
 Tree
 Sprite2D
@@ -11,4 +12,3 @@ ParallaxLayer
 ParallaxBackground
 Parallax2D
 Marker2D
-CollisionShape2D
