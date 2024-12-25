@@ -1,9 +1,10 @@
 CanvasLayer
+CenterContainer
+Label
 BoxContainer
 TileMapLayer
 MarginContainer
 TextureButton
-CenterContainer
 HBoxContainer
 Tree
 Sprite2D
@@ -11,4 +12,3 @@ TextureRect
 ParallaxLayer
 ParallaxBackground
 Parallax2D
-Marker2D

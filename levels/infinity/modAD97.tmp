@@ -8,6 +8,7 @@ script = ExtResource("1_6n6lj")
 
 [node name="Module_1" parent="." instance=ExtResource("2_l6yxn")]
 visible = false
+position = Vector2(0, -800)
 
 [node name="Module_2" parent="." instance=ExtResource("2_l6yxn")]
 visible = false
