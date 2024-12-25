@@ -10,3 +10,4 @@ res://levels/infinity/modules/master_module.tscn
 res://levels/infinity/modules/module_02.tscn
 res://levels/infinity/modules/module_01.tscn
 res://levels/infinity/modules/module_03.tscn
+res://levels/infinity/modules/master_module.gd

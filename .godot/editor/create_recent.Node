@@ -1,3 +1,5 @@
+CollisionShape2D
+Area2D
 CanvasLayer
 CenterContainer
 Label
@@ -11,4 +13,3 @@ Sprite2D
 TextureRect
 ParallaxLayer
 ParallaxBackground
-Parallax2D
