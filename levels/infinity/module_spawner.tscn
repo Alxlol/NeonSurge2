@@ -1,17 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://c7cs30g45a6ck"]
+[gd_scene load_steps=2 format=3 uid="uid://c7cs30g45a6ck"]
 
 [ext_resource type="Script" path="res://levels/infinity/module_spawner.gd" id="1_6n6lj"]
-[ext_resource type="PackedScene" uid="uid://cq1npxbw3t6g8" path="res://levels/infinity/modules/master_module.tscn" id="2_l6yxn"]
 
 [node name="ModuleSpawner" type="Node2D"]
 script = ExtResource("1_6n6lj")
-
-[node name="Module_1" parent="." instance=ExtResource("2_l6yxn")]
-
-[node name="Module_2" parent="." instance=ExtResource("2_l6yxn")]
-visible = false
-position = Vector2(0, -1600)
-
-[node name="Module_3" parent="." instance=ExtResource("2_l6yxn")]
-visible = false
-position = Vector2(0, -2400)

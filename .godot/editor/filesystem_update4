@@ -1,13 +1,6 @@
-res://levels/infinity/master_infinity_module.tscn
-res://art/tilemaps/tile_set.tres
-res://levels/master_level.tscn
-res://scenes/background.tscn
-res://ui/ui.tscn
 res://levels/infinity/module_spawner.tscn
+res://art/tilemaps/tile_set.tres
 res://levels/infinity/module_spawner.gd
-res://levels/infinity/master_infinity_module.gd
+res://levels/master_level.tscn
 res://levels/infinity/modules/master_module.tscn
-res://levels/infinity/modules/module_02.tscn
-res://levels/infinity/modules/module_01.tscn
-res://levels/infinity/modules/module_03.tscn
 res://levels/infinity/modules/master_module.gd
