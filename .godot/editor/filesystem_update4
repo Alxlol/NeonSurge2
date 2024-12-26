@@ -4,3 +4,9 @@ res://levels/infinity/module_spawner.gd
 res://levels/master_level.tscn
 res://levels/infinity/modules/master_module.tscn
 res://levels/infinity/modules/master_module.gd
+res://ui/ui.tscn
+res://scenes/player.tscn
+res://global/player_state.gd
+res://ui/ui.gd
+res://scenes/background.tscn
+res://scenes/background.gd

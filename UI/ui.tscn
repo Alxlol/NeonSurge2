@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://btiwt3bnfesc0" path="res://art/ui/pause-button.png" id="3_rb6qd"]
 
 [node name="UserInterface" type="Control"]
+z_index = 100
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0

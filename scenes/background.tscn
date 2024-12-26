@@ -8,6 +8,7 @@
 blend_mode = 1
 
 [node name="Background" type="Control"]
+z_index = -1
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -30,13 +31,14 @@ texture = ExtResource("1_1ikiu")
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 layer = 0
+visible = false
 scroll_offset = Vector2(50, 50)
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 motion_mirroring = Vector2(0, 1024)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
-modulate = Color(1, 1, 1, 0.392157)
+modulate = Color(1, 1, 1, 0.701961)
 material = SubResource("CanvasItemMaterial_v164r")
 position = Vector2(140, 422)
 texture = ExtResource("2_4u0cv")

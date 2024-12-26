@@ -84,6 +84,7 @@ size = Vector2(32, 32)
 size = Vector2(32, 32)
 
 [node name="Player" type="RigidBody2D" groups=["player"]]
+z_index = 50
 linear_damp = 3.0
 script = ExtResource("1_ddm68")
 

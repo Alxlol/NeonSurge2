@@ -9,7 +9,6 @@ var current_health: int = 3
 signal set_new_health(new_health: int)
 
 func _ready() -> void:
-	# Spawn player at the start of the level
 	PlayerState.respawn_player(Vector2(160, 256))
 
 func decrement_health(amount):
