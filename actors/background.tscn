@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bd87gqv8t0ckm"]
 
 [ext_resource type="Texture2D" uid="uid://kbrla5nieg6n" path="res://art/backgrounds/Blue_Nebula_01-1024x1024.png" id="1_1ikiu"]
-[ext_resource type="Script" path="res://scenes/background.gd" id="1_qahsr"]
+[ext_resource type="Script" path="res://actors/background.gd" id="1_qahsr"]
 [ext_resource type="Texture2D" uid="uid://bqpp1umnxg8iv" path="res://art/backgrounds/Starfield_04-1024x1024.png" id="2_4u0cv"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_v164r"]

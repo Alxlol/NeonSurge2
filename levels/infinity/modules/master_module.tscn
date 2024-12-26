@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r7yiy"]
 size = Vector2(468, 17)
 
-[node name="MasterInfinityModule" type="Node2D"]
+[node name="master_module" type="Node2D"]
 position = Vector2(0, -800)
 script = ExtResource("1_mkgbk")
 

@@ -1,6 +1,6 @@
 extends Node
 
-@onready var player_class : PackedScene = preload("res://scenes/player.tscn")
+@onready var player_class : PackedScene = preload("res://actors/player.tscn")
 var player_instance : Player
 
 var max_health: int = 3
