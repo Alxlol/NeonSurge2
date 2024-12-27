@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://wpdcr5yeiequ"]
+[gd_scene load_steps=3 format=3 uid="uid://wpdcr5yeiequ"]
 
 [ext_resource type="PackedScene" uid="uid://cq1npxbw3t6g8" path="res://levels/infinity/modules/master_module.tscn" id="1_edoee"]
+[ext_resource type="PackedScene" uid="uid://3tlxh7vyren0" path="res://actors/obstacles/obstacle_01.tscn" id="2_b3h30"]
 
 [node name="master_module" instance=ExtResource("1_edoee")]
 
@@ -13,3 +14,6 @@ offset_bottom = 439.0
 [node name="Label" parent="CenterContainer" index="0"]
 theme_override_font_sizes/font_size = 40
 text = "GLHF"
+
+[node name="Obstacle01" parent="." index="4" instance=ExtResource("2_b3h30")]
+position = Vector2(178, 793)

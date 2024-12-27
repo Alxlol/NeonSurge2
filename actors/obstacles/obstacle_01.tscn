@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=4 uid="uid://3tlxh7vyren0"]
+
+[ext_resource type="TileSet" uid="uid://bv88ixiarhoh7" path="res://art/tilemaps/tile_set.tres" id="1_ig6c6"]
+[ext_resource type="Script" path="res://actors/obstacles/obstacle_01.gd" id="2_upr7t"]
+
+[node name="Obstacle01" type="Node2D"]
+script = ExtResource("2_upr7t")
+
+[node name="Anchor" type="Marker2D" parent="."]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="Anchor"]
+position = Vector2(-68, -9)
+tile_map_data = PackedByteArray("AAAAAAAAAAACAAAAAAABAAAAAAACAAAAAAACAAAAAAACAAAAAAADAAAAAAACAAAAAAAEAAAAAAACAAAAAAAFAAAAAAACAAAAAAAGAAAAAAACAAAAAAAHAAAAAAACAAAAAAA=")
+tile_set = ExtResource("1_ig6c6")
