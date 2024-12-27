@@ -1,14 +1,17 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1735305052
+::res://::1735334847
 export_presets.cfg::TextFile::-1::1734871335::0::1::::<><>::
-::res://actors/::1735230799
+::res://actors/::1735306350
 background.gd::GDScript::-1::1735183006::0::1::::<>Control<>::
 background.tscn::PackedScene::2667066213363366720::1735229733::0::1::::<><>::uid://kbrla5nieg6n::::res://art/backgrounds/Blue_Nebula_01-1024x1024.png<>res://actors/background.gd<>uid://bqpp1umnxg8iv::::res://art/backgrounds/Starfield_04-1024x1024.png
 obstacle.gd::GDScript::-1::1734817659::0::1::::<>Node2D<>::
 obstacle.tscn::PackedScene::1234355406524463208::1735229733::0::1::::<><>::res://actors/obstacle.gd<>uid://b5ykxes1wf28b::::res://art/tilemaps/rock.png
 Pickup.tscn::PackedScene::7901779461567722261::1734960115::0::1::::<><>::uid://b26nny02eacl1::::res://art/pickups/diamond_pickup_16x16.png
 player.gd::GDScript::-1::1735230799::0::1::::Player<>RigidBody2D<>::
-player.tscn::PackedScene::8862406351357476898::1735229733::0::1::::<><>::res://actors/player.gd<>uid://cyu461wyilqj7::::res://art/spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png<>uid://clmafet1gigm::::res://art/spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Base Engine.png<>uid://ciwo11eak8klu::::res://art/spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Idle.png<>uid://dtjxt743uyocf::::res://art/spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Spritesheet.png<>res://components/rotate_component.gd<>res://components/thrust_component.gd
+player.tscn::PackedScene::8862406351357476898::1735306350::0::1::::<><>::res://actors/player.gd<>uid://cyu461wyilqj7::::res://art/spaceship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png<>uid://clmafet1gigm::::res://art/spaceship/Main Ship/Main Ship - Engines/PNGs/Main Ship - Engines - Base Engine.png<>uid://ciwo11eak8klu::::res://art/spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Idle.png<>uid://dtjxt743uyocf::::res://art/spaceship/Main Ship/Main Ship - Engine Effects/PNGs/Main Ship - Engines - Supercharged Engine - Spritesheet.png<>res://components/rotate_component.gd<>res://components/thrust_component.gd
+::res://actors/obstacles/::1735306440
+obstacle_01.gd::GDScript::-1::1735305827::0::1::::<>Node2D<>::
+obstacle_01.tscn::PackedScene::2005220177456367755::1735306440::0::1::::<><>::uid://bv88ixiarhoh7::::res://art/tilemaps/tile_set.tres<>res://actors/obstacles/obstacle_01.gd
 ::res://apk/::1734871017
 ::res://art/::1734980545
 ::res://art/backgrounds/::1734962511
@@ -88,17 +91,17 @@ thrust_component.gd::GDScript::-1::1734867341::0::1::::ThrustComponent<>Node<>::
 ::res://global/::1735229756
 game_state.gd::GDScript::-1::1734962119::0::1::::<>Node<>::
 player_state.gd::GDScript::-1::1735229756::0::1::::<>Node<>::
-::res://levels/::1735305061
-infinity.tscn::PackedScene::6392417098081116270::1735305061::0::1::::<><>::uid://bd87gqv8t0ckm::::res://actors/background.tscn<>uid://kghdlox5n662::::res://ui/ui.tscn<>uid://c7cs30g45a6ck::::res://levels/infinity/module_spawner.tscn
+::res://levels/::1735306350
+infinity.tscn::PackedScene::6392417098081116270::1735306350::0::1::::<><>::uid://bd87gqv8t0ckm::::res://actors/background.tscn<>uid://kghdlox5n662::::res://ui/ui.tscn<>uid://c7cs30g45a6ck::::res://levels/infinity/module_spawner.tscn
 ::res://levels/campaign/::1734998879
-::res://levels/infinity/::1735305061
+::res://levels/infinity/::1735306350
 module_spawner.gd::GDScript::-1::1735230902::0::1::::<>Node2D<>::
-module_spawner.tscn::PackedScene::7024157351120824778::1735305061::0::1::::<><>::res://levels/infinity/module_spawner.gd
-::res://levels/infinity/modules/::1735305061
+module_spawner.tscn::PackedScene::7024157351120824778::1735306350::0::1::::<><>::res://levels/infinity/module_spawner.gd
+::res://levels/infinity/modules/::1735306350
 master_module.gd::GDScript::-1::1735228785::0::1::::<>Node2D<>::
-master_module.tscn::PackedScene::5950354005634449217::1735305061::0::1::::<><>::res://levels/infinity/modules/master_module.gd<>uid://bv88ixiarhoh7::::res://art/tilemaps/tile_set.tres
-module_00.tscn::PackedScene::1575306889250918340::1735305061::0::1::::<><>::uid://cq1npxbw3t6g8::::res://levels/infinity/modules/master_module.tscn
-module_01.tscn::PackedScene::4472083283073344006::1735305061::0::1::::<><>::uid://cq1npxbw3t6g8::::res://levels/infinity/modules/master_module.tscn
+master_module.tscn::PackedScene::5950354005634449217::1735306350::0::1::::<><>::res://levels/infinity/modules/master_module.gd<>uid://bv88ixiarhoh7::::res://art/tilemaps/tile_set.tres
+module_00.tscn::PackedScene::1575306889250918340::1735306350::0::1::::<><>::uid://cq1npxbw3t6g8::::res://levels/infinity/modules/master_module.tscn<>uid://3tlxh7vyren0::::res://actors/obstacles/obstacle_01.tscn
+module_01.tscn::PackedScene::4472083283073344006::1735306350::0::1::::<><>::uid://cq1npxbw3t6g8::::res://levels/infinity/modules/master_module.tscn
 module_02.tscn::PackedScene::7574019392145290568::1735227000::0::1::::<><>::uid://cq1npxbw3t6g8::::res://levels/infinity/modules/master_module.tscn
 module_03.tscn::PackedScene::6771245778883517096::1735226999::0::1::::<><>::uid://cq1npxbw3t6g8::::res://levels/infinity/modules/master_module.tscn
 ::res://ui/::1735228137

@@ -1,8 +1,7 @@
-res://levels/infinity.tscn
-res://art/tilemaps/tile_set.tres
-res://levels/infinity/modules/master_module.tscn
-res://levels/infinity/module_spawner.tscn
-res://levels/infinity/modules/module_00.tscn
-res://levels/infinity/modules/module_01.tscn
 res://actors/obstacles/obstacle_01.tscn
+res://art/tilemaps/tile_set.tres
 res://actors/obstacles/obstacle_01.gd
+res://levels/infinity.tscn
+res://levels/infinity/modules/module_00.tscn
+res://actors/player.tscn
+res://actors/obstacles/obstacle_tool.gd
